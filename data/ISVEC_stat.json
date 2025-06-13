@@ -1,0 +1,2505 @@
+[
+  {
+    "week": "1",
+    "date": "29.03.2025 17:00",
+    "attendance": 28785,
+    "home": "Djurgarden",
+    "away": "Malmö FF",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "18"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "29.03.2025 19:30",
+    "attendance": 4557,
+    "home": "Hacken",
+    "away": "Brommapojkarna",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%65",
+        "away": "%35"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 15:00",
+    "attendance": 8025,
+    "home": "Elfsborg",
+    "away": "Mjallby",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 15:00",
+    "attendance": 30217,
+    "home": "Hammarby",
+    "away": "Göteborg",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "14"
+      },
+      "Ofsaytlar": {
+        "home": "6",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 17:30",
+    "attendance": 9527,
+    "home": "Norrköping",
+    "away": "Östers",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "10"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "16"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 17:30",
+    "attendance": 5524,
+    "home": "Halmstad",
+    "away": "Degerfors",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "5"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "11"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "31.03.2025 20:00",
+    "attendance": 2524,
+    "home": "IFK Varnamo",
+    "away": "IK Sirius",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "19",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "31.03.2025 20:10",
+    "attendance": 15046,
+    "home": "GAIS",
+    "away": "AIK",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "5.04.2025 16:00",
+    "attendance": 9639,
+    "home": "IK Sirius",
+    "away": "Djurgarden",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%47",
+        "away": "%53"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "18"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "5.04.2025 16:00",
+    "attendance": 17251,
+    "home": "Göteborg",
+    "away": "Halmstad",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "23"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "5.04.2025 18:30",
+    "attendance": 7871,
+    "home": "Östers",
+    "away": "Hacken",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "10"
+      },
+      "Fauller": {
+        "home": "19",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 15:00",
+    "attendance": 4254,
+    "home": "Brommapojkarna",
+    "away": "Hammarby",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "23",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 15:00",
+    "attendance": 38525,
+    "home": "AIK",
+    "away": "Norrköping",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 17:30",
+    "attendance": 3532,
+    "home": "Mjallby",
+    "away": "GAIS",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "19"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 17:30",
+    "attendance": 3506,
+    "home": "Degerfors",
+    "away": "IFK Varnamo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "2"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "9"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "17"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "7.04.2025 20:10",
+    "attendance": 20930,
+    "home": "Malmö FF",
+    "away": "Elfsborg",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "16"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "12.04.2025 16:00",
+    "attendance": 4058,
+    "home": "Hacken",
+    "away": "Mjallby",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "12.04.2025 18:30",
+    "attendance": 8065,
+    "home": "Elfsborg",
+    "away": "Norrköping",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "4"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 15:00",
+    "attendance": 4108,
+    "home": "IFK Varnamo",
+    "away": "Göteborg",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "18",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 15:00",
+    "attendance": 28333,
+    "home": "Hammarby",
+    "away": "Djurgarden",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "17",
+        "away": "21"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 17:30",
+    "attendance": 4935,
+    "home": "IK Sirius",
+    "away": "Brommapojkarna",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "2"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 17:30",
+    "attendance": 7651,
+    "home": "GAIS",
+    "away": "Degerfors",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%65",
+        "away": "%35"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "18"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "14.04.2025 20:00",
+    "attendance": 4728,
+    "home": "Halmstad",
+    "away": "Östers",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "14.04.2025 20:10",
+    "attendance": 28472,
+    "home": "AIK",
+    "away": "Malmö FF",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "18.04.2025 16:00",
+    "attendance": 19353,
+    "home": "Malmö FF",
+    "away": "IK Sirius",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%68",
+        "away": "%32"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "14"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "18.04.2025 16:00",
+    "attendance": 5941,
+    "home": "Mjallby",
+    "away": "Hammarby",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "19.04.2025 16:00",
+    "attendance": 5626,
+    "home": "Norrköping",
+    "away": "Halmstad",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "19.04.2025 16:00",
+    "attendance": 3127,
+    "home": "Degerfors",
+    "away": "Elfsborg",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "16"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "20.04.2025 15:00",
+    "attendance": 530,
+    "home": "Brommapojkarna",
+    "away": "IFK Varnamo",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "11",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "11",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "20.04.2025 15:00",
+    "attendance": 11685,
+    "home": "Östers",
+    "away": "AIK",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "10",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "16",
+        "away": "17"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "20.04.2025 17:30",
+    "attendance": 17318,
+    "home": "Göteborg",
+    "away": "Hacken",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "11",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "21.04.2025 15:00",
+    "attendance": 17978,
+    "home": "Djurgarden",
+    "away": "GAIS",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "23.04.2025 20:00",
+    "attendance": 5723,
+    "home": "Elfsborg",
+    "away": "IK Sirius",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "10",
+        "away": "9"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "23.04.2025 20:00",
+    "attendance": 3176,
+    "home": "Hacken",
+    "away": "Degerfors",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "4"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "23.04.2025 20:00",
+    "attendance": 27884,
+    "home": "Hammarby",
+    "away": "Malmö FF",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "19",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "23.04.2025 20:00",
+    "attendance": 3652,
+    "home": "Halmstad",
+    "away": "Mjallby",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%40",
+        "away": "%60"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "8"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "16",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "24.04.2025 20:00",
+    "attendance": 3235,
+    "home": "IFK Varnamo",
+    "away": "AIK",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "24.04.2025 20:00",
+    "attendance": 12301,
+    "home": "Djurgarden",
+    "away": "Östers",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "27",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "9",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "15",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "24.04.2025 20:00",
+    "attendance": 6157,
+    "home": "GAIS",
+    "away": "Brommapojkarna",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "12",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "24.04.2025 20:00",
+    "attendance": 8718,
+    "home": "Norrköping",
+    "away": "Göteborg",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "2"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "11"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 16:00",
+    "home": "Degerfors",
+    "away": "IK Sirius"
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 18:30",
+    "home": "Halmstad",
+    "away": "IFK Varnamo"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 15:00",
+    "home": "Djurgarden",
+    "away": "AIK"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 15:00",
+    "home": "Norrköping",
+    "away": "Hacken"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 17:30",
+    "home": "Mjallby",
+    "away": "Göteborg"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 17:30",
+    "home": "Östers",
+    "away": "Hammarby"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 20:00",
+    "home": "Malmö FF",
+    "away": "Brommapojkarna"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 20:10",
+    "home": "Elfsborg",
+    "away": "GAIS"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 16:00",
+    "home": "Brommapojkarna",
+    "away": "Halmstad"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 18:30",
+    "home": "GAIS",
+    "away": "IFK Varnamo"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 18:30",
+    "home": "IK Sirius",
+    "away": "Hacken"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 15:00",
+    "home": "AIK",
+    "away": "Mjallby"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 15:00",
+    "home": "Hammarby",
+    "away": "Norrköping"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 17:30",
+    "home": "Degerfors",
+    "away": "Malmö FF"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 17:30",
+    "home": "Östers",
+    "away": "Elfsborg"
+  },
+  {
+    "week": "8",
+    "date": "12.05.2025 20:10",
+    "home": "Göteborg",
+    "away": "Djurgarden"
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 16:00",
+    "home": "Degerfors",
+    "away": "IK Sirius"
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 18:30",
+    "home": "Halmstad",
+    "away": "IFK Varnamo"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 15:00",
+    "home": "Djurgarden",
+    "away": "AIK"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 15:00",
+    "home": "Norrköping",
+    "away": "Hacken"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 17:30",
+    "home": "Mjallby",
+    "away": "Göteborg"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 17:30",
+    "home": "Östers",
+    "away": "Hammarby"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 20:00",
+    "home": "Malmö FF",
+    "away": "Brommapojkarna"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 20:10",
+    "home": "Elfsborg",
+    "away": "GAIS"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 16:00",
+    "home": "Brommapojkarna",
+    "away": "Halmstad"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 18:30",
+    "home": "GAIS",
+    "away": "IFK Varnamo"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 18:30",
+    "home": "IK Sirius",
+    "away": "Hacken"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 15:00",
+    "home": "AIK",
+    "away": "Mjallby"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 15:00",
+    "home": "Hammarby",
+    "away": "Norrköping"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 17:30",
+    "home": "Degerfors",
+    "away": "Malmö FF"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 17:30",
+    "home": "Östers",
+    "away": "Elfsborg"
+  },
+  {
+    "week": "8",
+    "date": "12.05.2025 20:10",
+    "home": "Göteborg",
+    "away": "Djurgarden"
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 15:00",
+    "attendance": 3241,
+    "home": "Mjallby",
+    "away": "Degerfors",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "1"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 15:00",
+    "attendance": 6316,
+    "home": "Hacken",
+    "away": "Hammarby",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "9"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 17:00",
+    "attendance": 27079,
+    "home": "AIK",
+    "away": "Elfsborg",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "17",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 17:30",
+    "attendance": 1888,
+    "home": "IFK Varnamo",
+    "away": "Norrköping",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "13",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 17:30",
+    "attendance": 4442,
+    "home": "IK Sirius",
+    "away": "Halmstad",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "28.04.2025 20:00",
+    "home": "Brommapojkarna",
+    "away": "Djurgarden"
+  },
+  {
+    "week": "6",
+    "date": "28.04.2025 20:10",
+    "attendance": 18021,
+    "home": "Göteborg",
+    "away": "GAIS",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "9"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "6"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "29.04.2025 20:00",
+    "attendance": 19764,
+    "home": "Malmö FF",
+    "away": "Östers",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "1"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 16:00",
+    "home": "Degerfors",
+    "away": "IK Sirius"
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 18:30",
+    "home": "Halmstad",
+    "away": "IFK Varnamo"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 15:00",
+    "home": "Djurgarden",
+    "away": "AIK"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 15:00",
+    "home": "Norrköping",
+    "away": "Hacken"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 17:30",
+    "home": "Mjallby",
+    "away": "Göteborg"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 17:30",
+    "home": "Östers",
+    "away": "Hammarby"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 20:00",
+    "home": "Malmö FF",
+    "away": "Brommapojkarna"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 20:10",
+    "home": "Elfsborg",
+    "away": "GAIS"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 16:00",
+    "home": "Brommapojkarna",
+    "away": "Halmstad"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 18:30",
+    "home": "GAIS",
+    "away": "IFK Varnamo"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 18:30",
+    "home": "IK Sirius",
+    "away": "Hacken"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 15:00",
+    "home": "AIK",
+    "away": "Mjallby"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 15:00",
+    "home": "Hammarby",
+    "away": "Norrköping"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 17:30",
+    "home": "Degerfors",
+    "away": "Malmö FF"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 17:30",
+    "home": "Östers",
+    "away": "Elfsborg"
+  },
+  {
+    "week": "8",
+    "date": "12.05.2025 20:10",
+    "home": "Göteborg",
+    "away": "Djurgarden"
+  }
+]

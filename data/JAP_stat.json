@@ -1,0 +1,4238 @@
+[
+  {
+    "week": "1",
+    "date": "14.02.2025 13:00",
+    "attendance": 34860,
+    "home": "Gamba Osaka",
+    "away": "Cerezo Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "5"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "9"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "2",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 08:00",
+    "attendance": 32713,
+    "home": "Yokohama F. Marinos",
+    "away": "Albirex Niigata",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "4",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 08:00",
+    "attendance": 22266,
+    "home": "Vissel Kobe",
+    "away": "Urawa Red Diamonds",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "18"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "9"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "16"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 08:00",
+    "attendance": 12195,
+    "home": "Yokohama FC",
+    "away": "FC Tokyo",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "1"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 08:00",
+    "attendance": 14575,
+    "home": "Fagiano Okayama",
+    "away": "Kyoto Sanga",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%34",
+        "away": "%66"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "11"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 08:00",
+    "attendance": 9923,
+    "home": "Avispa Fukuoka",
+    "away": "Kashiwa Reysol",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 09:00",
+    "attendance": 23005,
+    "home": "Kawasaki Frontale",
+    "away": "Nagoya Grampus",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "16"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 09:00",
+    "attendance": 13025,
+    "home": "Shonan Bellmare",
+    "away": "Kashima Antlers",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "10"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "16.02.2025 08:00",
+    "attendance": 52541,
+    "home": "Tokyo Verdy",
+    "away": "Shimizu S-Pulse",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "16.02.2025 08:00",
+    "attendance": 12773,
+    "home": "Machida Zelvia",
+    "away": "Sanfrecce Hiroshima",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "20",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 08:00",
+    "attendance": 7274,
+    "home": "Yokohama FC",
+    "away": "Fagiano Okayama",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 08:00",
+    "attendance": 31088,
+    "home": "Nagoya Grampus",
+    "away": "Vissel Kobe",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 08:00",
+    "attendance": 14718,
+    "home": "Kyoto Sanga",
+    "away": "Urawa Red Diamonds",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 08:00",
+    "attendance": 13695,
+    "home": "Kashiwa Reysol",
+    "away": "Kawasaki Frontale",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 08:00",
+    "attendance": 18141,
+    "home": "Shimizu S-Pulse",
+    "away": "Albirex Niigata",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 09:00",
+    "attendance": 22614,
+    "home": "Gamba Osaka",
+    "away": "Avispa Fukuoka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "14"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 09:00",
+    "attendance": 16002,
+    "home": "Cerezo Osaka",
+    "away": "Shonan Bellmare",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "2"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "6",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 09:00",
+    "attendance": 26021,
+    "home": "Kashima Antlers",
+    "away": "Tokyo Verdy",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "10",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 09:00",
+    "attendance": 29545,
+    "home": "FC Tokyo",
+    "away": "Machida Zelvia",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "23.02.2025 08:00",
+    "attendance": 27123,
+    "home": "Sanfrecce Hiroshima",
+    "away": "Yokohama F. Marinos",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "1"
+      },
+      "Fauller": {
+        "home": "20",
+        "away": "14"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 13555,
+    "home": "Fagiano Okayama",
+    "away": "Gamba Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "5",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 12238,
+    "home": "Shimizu S-Pulse",
+    "away": "Sanfrecce Hiroshima",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 7106,
+    "home": "Avispa Fukuoka",
+    "away": "Kawasaki Frontale",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%37",
+        "away": "%63"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 14971,
+    "home": "FC Tokyo",
+    "away": "Nagoya Grampus",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%40",
+        "away": "%60"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 8946,
+    "home": "Kashiwa Reysol",
+    "away": "Cerezo Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 11335,
+    "home": "Vissel Kobe",
+    "away": "Kyoto Sanga",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "0"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "21"
+      },
+      "Ofsaytlar": {
+        "home": "8",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 12106,
+    "home": "Kashima Antlers",
+    "away": "Albirex Niigata",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "2",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "4",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 17115,
+    "home": "Yokohama F. Marinos",
+    "away": "Yokohama FC",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "6",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 11351,
+    "home": "Shonan Bellmare",
+    "away": "Urawa Red Diamonds",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "10",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "4"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "26.02.2025 13:00",
+    "attendance": 6825,
+    "home": "Machida Zelvia",
+    "away": "Tokyo Verdy",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "1"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "1.03.2025 07:00",
+    "attendance": 25561,
+    "home": "Yokohama F. Marinos",
+    "away": "Shonan Bellmare",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "1.03.2025 08:00",
+    "attendance": 21421,
+    "home": "Kashima Antlers",
+    "away": "FC Tokyo",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "11",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "2"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "1.03.2025 09:00",
+    "attendance": 22404,
+    "home": "Kawasaki Frontale",
+    "away": "Kyoto Sanga",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "18"
+      },
+      "Ofsaytlar": {
+        "home": "6",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "1.03.2025 09:00",
+    "attendance": 20890,
+    "home": "Vissel Kobe",
+    "away": "Avispa Fukuoka",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "22"
+      },
+      "Ofsaytlar": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "2.03.2025 08:00",
+    "attendance": 21260,
+    "home": "Tokyo Verdy",
+    "away": "Gamba Osaka",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "21"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "14"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "2.03.2025 08:00",
+    "attendance": 34718,
+    "home": "Nagoya Grampus",
+    "away": "Machida Zelvia",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%47",
+        "away": "%53"
+      },
+      "Toplam Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "16"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "2.03.2025 08:00",
+    "attendance": 13330,
+    "home": "Fagiano Okayama",
+    "away": "Shimizu S-Pulse",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%41",
+        "away": "%59"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "2.03.2025 08:00",
+    "attendance": 22933,
+    "home": "Albirex Niigata",
+    "away": "Cerezo Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "4",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "2.03.2025 08:30",
+    "attendance": 25043,
+    "home": "Sanfrecce Hiroshima",
+    "away": "Yokohama FC",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "2.03.2025 09:00",
+    "attendance": 51009,
+    "home": "Urawa Red Diamonds",
+    "away": "Kashiwa Reysol",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "7",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 08:00",
+    "attendance": 35269,
+    "home": "Urawa Red Diamonds",
+    "away": "Fagiano Okayama",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 08:05",
+    "attendance": 20503,
+    "home": "Albirex Niigata",
+    "away": "Tokyo Verdy",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "1"
+      },
+      "Fauller": {
+        "home": "19",
+        "away": "14"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 09:00",
+    "attendance": 29071,
+    "home": "Gamba Osaka",
+    "away": "Shimizu S-Pulse",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "16",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 10:00",
+    "attendance": 7934,
+    "home": "Yokohama FC",
+    "away": "Machida Zelvia",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "6",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 10:00",
+    "attendance": 13309,
+    "home": "Kashiwa Reysol",
+    "away": "Kashima Antlers",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 10:00",
+    "attendance": 19654,
+    "home": "FC Tokyo",
+    "away": "Shonan Bellmare",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "8.03.2025 10:00",
+    "attendance": 17171,
+    "home": "Cerezo Osaka",
+    "away": "Nagoya Grampus",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "9.03.2025 08:00",
+    "attendance": 11535,
+    "home": "Kyoto Sanga",
+    "away": "Avispa Fukuoka",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "5",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "9.04.2025 13:00",
+    "attendance": 21478,
+    "home": "Kawasaki Frontale",
+    "away": "Yokohama F. Marinos",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%37",
+        "away": "%63"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "6",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "2.07.2025 13:00",
+    "home": "Vissel Kobe",
+    "away": "Sanfrecce Hiroshima"
+  },
+  {
+    "week": "6",
+    "date": "15.03.2025 08:00",
+    "attendance": 16300,
+    "home": "Tokyo Verdy",
+    "away": "Nagoya Grampus",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "15.03.2025 08:00",
+    "attendance": 6431,
+    "home": "Yokohama FC",
+    "away": "Cerezo Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%41",
+        "away": "%59"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "15.03.2025 08:00",
+    "attendance": 10152,
+    "home": "Machida Zelvia",
+    "away": "Albirex Niigata",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%63",
+        "away": "%37"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "3"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "15.03.2025 08:00",
+    "attendance": 7721,
+    "home": "Avispa Fukuoka",
+    "away": "FC Tokyo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "0"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "16.03.2025 07:00",
+    "attendance": 14012,
+    "home": "Shimizu S-Pulse",
+    "away": "Kyoto Sanga",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "19"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "16.03.2025 08:00",
+    "attendance": 13699,
+    "home": "Fagiano Okayama",
+    "away": "Kawasaki Frontale",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "16.03.2025 08:00",
+    "attendance": 31574,
+    "home": "Kashima Antlers",
+    "away": "Urawa Red Diamonds",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "16.03.2025 08:00",
+    "attendance": 23169,
+    "home": "Yokohama F. Marinos",
+    "away": "Gamba Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "23"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "11"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "10"
+      },
+      "Fauller": {
+        "home": "4",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "16.03.2025 08:00",
+    "attendance": 25283,
+    "home": "Sanfrecce Hiroshima",
+    "away": "Kashiwa Reysol",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "7",
+        "away": "15"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "16.03.2025 09:00",
+    "attendance": 9537,
+    "home": "Shonan Bellmare",
+    "away": "Vissel Kobe",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "0"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "7"
+      },
+      "Ofsaytlar": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "28.03.2025 13:00",
+    "attendance": 18366,
+    "home": "Cerezo Osaka",
+    "away": "Urawa Red Diamonds",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "3",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 06:55",
+    "attendance": 14892,
+    "home": "Fagiano Okayama",
+    "away": "Yokohama F. Marinos",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%41",
+        "away": "%59"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "16",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 07:00",
+    "attendance": 17684,
+    "home": "Shimizu S-Pulse",
+    "away": "Shonan Bellmare",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "23"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 08:00",
+    "attendance": 14393,
+    "home": "Kyoto Sanga",
+    "away": "Sanfrecce Hiroshima",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%35",
+        "away": "%65"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "9"
+      },
+      "Fauller": {
+        "home": "16",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 08:00",
+    "attendance": 20497,
+    "home": "Albirex Niigata",
+    "away": "Gamba Osaka",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "21"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "9"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "5",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 08:00",
+    "attendance": 11888,
+    "home": "Kashiwa Reysol",
+    "away": "Tokyo Verdy",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 08:00",
+    "attendance": 32226,
+    "home": "Nagoya Grampus",
+    "away": "Yokohama FC",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "16",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 09:00",
+    "attendance": 22601,
+    "home": "Kashima Antlers",
+    "away": "Vissel Kobe",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "14"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "6"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 09:00",
+    "attendance": 7600,
+    "home": "Avispa Fukuoka",
+    "away": "Machida Zelvia",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "29.03.2025 11:00",
+    "attendance": 33632,
+    "home": "FC Tokyo",
+    "away": "Kawasaki Frontale",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 17141,
+    "home": "Cerezo Osaka",
+    "away": "Fagiano Okayama",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 23125,
+    "home": "Gamba Osaka",
+    "away": "Machida Zelvia",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "2"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "17",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 9059,
+    "home": "Kyoto Sanga",
+    "away": "Kashiwa Reysol",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%65",
+        "away": "%35"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 24868,
+    "home": "Sanfrecce Hiroshima",
+    "away": "Kashima Antlers",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 26865,
+    "home": "Tokyo Verdy",
+    "away": "FC Tokyo",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 8032,
+    "home": "Yokohama FC",
+    "away": "Vissel Kobe",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "5",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 21392,
+    "home": "Kawasaki Frontale",
+    "away": "Shonan Bellmare",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "3"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "2",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "18"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 13627,
+    "home": "Albirex Niigata",
+    "away": "Avispa Fukuoka",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "5"
+      },
+      "Fauller": {
+        "home": "6",
+        "away": "4"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:00",
+    "attendance": 21892,
+    "home": "Nagoya Grampus",
+    "away": "Yokohama F. Marinos",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "9",
+        "away": "7"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "2.04.2025 13:30",
+    "attendance": 25326,
+    "home": "Urawa Red Diamonds",
+    "away": "Shimizu S-Pulse",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "6"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "14"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "5.04.2025 08:00",
+    "attendance": 24170,
+    "home": "Yokohama F. Marinos",
+    "away": "Tokyo Verdy",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "14",
+        "away": "19"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 07:00",
+    "attendance": 15073,
+    "home": "Fagiano Okayama",
+    "away": "FC Tokyo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "6",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "10"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 08:00",
+    "attendance": 9106,
+    "home": "Yokohama FC",
+    "away": "Shimizu S-Pulse",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "0"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "1",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 08:00",
+    "attendance": 36407,
+    "home": "Vissel Kobe",
+    "away": "Albirex Niigata",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%68",
+        "away": "%32"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "3"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "2",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 08:00",
+    "attendance": 11974,
+    "home": "Machida Zelvia",
+    "away": "Kawasaki Frontale",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "7"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "12",
+        "away": "6"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 08:00",
+    "attendance": 11683,
+    "home": "Avispa Fukuoka",
+    "away": "Urawa Red Diamonds",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "4"
+      },
+      "Fauller": {
+        "home": "13",
+        "away": "11"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 09:00",
+    "attendance": 25324,
+    "home": "Sanfrecce Hiroshima",
+    "away": "Cerezo Osaka",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "1"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "3"
+      },
+      "Fauller": {
+        "home": "10",
+        "away": "9"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 09:00",
+    "attendance": 12833,
+    "home": "Kashiwa Reysol",
+    "away": "Gamba Osaka",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "8",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "9",
+        "away": "8"
+      },
+      "Ofsaytlar": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 09:00",
+    "attendance": 16859,
+    "home": "Kashima Antlers",
+    "away": "Kyoto Sanga",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "4"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "4",
+        "away": "6"
+      },
+      "Fauller": {
+        "home": "11",
+        "away": "20"
+      },
+      "Ofsaytlar": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "6.04.2025 09:00",
+    "attendance": 9900,
+    "home": "Shonan Bellmare",
+    "away": "Nagoya Grampus",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "5"
+      },
+      "Direkten Dönen": {
+        "home": "0",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "2",
+        "away": "2"
+      },
+      "Fauller": {
+        "home": "15",
+        "away": "13"
+      },
+      "Ofsaytlar": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "10",
+    "date": "11.04.2025 13:00",
+    "attendance": 43813,
+    "home": "FC Tokyo",
+    "away": "Kashiwa Reysol",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%32",
+        "away": "%68"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Direkten Dönen": {
+        "home": "1",
+        "away": "0"
+      },
+      "Köşe Vuruşu": {
+        "home": "3",
+        "away": "8"
+      },
+      "Fauller": {
+        "home": "8",
+        "away": "12"
+      },
+      "Ofsaytlar": {
+        "home": "1",
+        "away": "5"
+      }
+    }
+  }
+]

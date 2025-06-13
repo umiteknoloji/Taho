@@ -1,0 +1,3572 @@
+[
+  {
+    "week": "1",
+    "date": "30.03.2025 00:30",
+    "attendance": 40837,
+    "home": "Cruzeiro",
+    "away": "Mirassol FC",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "284",
+        "away": "373"
+      },
+      "Pas Başarı(%)": {
+        "home": "%77",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/9",
+        "away": "5/16"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "21"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 00:30",
+    "attendance": 19484,
+    "home": "Fortaleza",
+    "away": "Fluminense",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%30",
+        "away": "%70"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "216",
+        "away": "614"
+      },
+      "Pas Başarı(%)": {
+        "home": "%77",
+        "away": "%91"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "2/9",
+        "away": "5/23"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "5"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 00:30",
+    "attendance": 19876,
+    "home": "Gremio",
+    "away": "Atletico Mineiro",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%32",
+        "away": "%68"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "22"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "7"
+      },
+      "Başarılı Paslar": {
+        "home": "198",
+        "away": "475"
+      },
+      "Pas Başarı(%)": {
+        "home": "%74",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "11"
+      },
+      "Orta": {
+        "home": "4/12",
+        "away": "3/24"
+      },
+      "Faul": {
+        "home": "19",
+        "away": "5"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 00:30",
+    "attendance": 6547,
+    "home": "Juventude",
+    "away": "Vitoria",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "234",
+        "away": "454"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "2/12",
+        "away": "3/23"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 00:30",
+    "attendance": 37856,
+    "home": "Sao Paulo",
+    "away": "Sport Recife",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "461",
+        "away": "237"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "7/20",
+        "away": "0/2"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "21"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 03:00",
+    "attendance": 48452,
+    "home": "Flamengo",
+    "away": "Internacional",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "473",
+        "away": "255"
+      },
+      "Pas Başarı(%)": {
+        "home": "%89",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "9/18",
+        "away": "2/9"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 22:00",
+    "attendance": 30347,
+    "home": "Palmeiras",
+    "away": "Botafogo",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "433",
+        "away": "287"
+      },
+      "Pas Başarı(%)": {
+        "home": "%89",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "8/27",
+        "away": "5/14"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "22"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "31.03.2025 00:30",
+    "attendance": 19550,
+    "home": "Vasco da Gama",
+    "away": "Santos",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "405",
+        "away": "348"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "4/14",
+        "away": "4/20"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "31.03.2025 02:00",
+    "attendance": 41647,
+    "home": "Bahia",
+    "away": "Corinthians",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "357",
+        "away": "525"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%91"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "2/14",
+        "away": "2/23"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": null,
+    "attendance": 2516,
+    "home": "RB Bragantino",
+    "away": "Ceara",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "419",
+        "away": "226"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%71"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "10/37",
+        "away": "3/9"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 42969,
+    "home": "Corinthians",
+    "away": "Vasco da Gama",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "425",
+        "away": "362"
+      },
+      "Pas Başarı(%)": {
+        "home": "%89",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "2/9",
+        "away": "4/19"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 26777,
+    "home": "Ceara",
+    "away": "Gremio",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "187",
+        "away": "337"
+      },
+      "Pas Başarı(%)": {
+        "home": "%75",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "10"
+      },
+      "Orta": {
+        "home": "5/21",
+        "away": "6/28"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "18"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 10030,
+    "home": "Botafogo",
+    "away": "Juventude",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "449",
+        "away": "324"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "6/18",
+        "away": "2/16"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 19729,
+    "home": "Fluminense",
+    "away": "RB Bragantino",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "341",
+        "away": "419"
+      },
+      "Pas Başarı(%)": {
+        "home": "%85",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "7/16",
+        "away": "2/17"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 28415,
+    "home": "Atletico Mineiro",
+    "away": "Sao Paulo",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "25",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "416",
+        "away": "261"
+      },
+      "Pas Başarı(%)": {
+        "home": "%90",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "12",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "8/39",
+        "away": "5/12"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 4354,
+    "home": "Mirassol FC",
+    "away": "Fortaleza",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%70",
+        "away": "%30"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "509",
+        "away": "170"
+      },
+      "Pas Başarı(%)": {
+        "home": "%85",
+        "away": "%66"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "7/32",
+        "away": "3/6"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "5",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 26324,
+    "home": "Sport Recife",
+    "away": "Palmeiras",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "283",
+        "away": "276"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "2/20",
+        "away": "3/15"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "21"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 29387,
+    "home": "Vitoria",
+    "away": "Flamengo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%37",
+        "away": "%63"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "7"
+      },
+      "Başarılı Paslar": {
+        "home": "323",
+        "away": "598"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%90"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "2/8",
+        "away": "1/14"
+      },
+      "Faul": {
+        "home": "7",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 32310,
+    "home": "Internacional",
+    "away": "Cruzeiro",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%68",
+        "away": "%32"
+      },
+      "Toplam Şut": {
+        "home": "24",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "11",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "558",
+        "away": "224"
+      },
+      "Pas Başarı(%)": {
+        "home": "%93",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "4/19",
+        "away": "3/8"
+      },
+      "Faul": {
+        "home": "19",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": null,
+    "attendance": 8796,
+    "home": "Santos",
+    "away": "Bahia",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "22",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "397",
+        "away": "297"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "7/32",
+        "away": "7/15"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "12.04.2025 22:00",
+    "attendance": 5154,
+    "home": "RB Bragantino",
+    "away": "Botafogo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%37",
+        "away": "%63"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "255",
+        "away": "444"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "1/7",
+        "away": "3/17"
+      },
+      "Faul": {
+        "home": "19",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "12.04.2025 22:00",
+    "attendance": 6821,
+    "home": "Juventude",
+    "away": "Ceara",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "357",
+        "away": "224"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "4/13",
+        "away": "3/18"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 00:30",
+    "attendance": 19297,
+    "home": "Palmeiras",
+    "away": "Corinthians",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%34",
+        "away": "%66"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "217",
+        "away": "487"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%90"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "3/9",
+        "away": "0/10"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "18"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 03:00",
+    "attendance": 15969,
+    "home": "Vasco da Gama",
+    "away": "Sport Recife",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "18"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "330",
+        "away": "398"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "10"
+      },
+      "Orta": {
+        "home": "3/9",
+        "away": "0/29"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 22:00",
+    "attendance": 39575,
+    "home": "Bahia",
+    "away": "Mirassol FC",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "430",
+        "away": "339"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "10",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "6/35",
+        "away": "2/10"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 23:30",
+    "attendance": 23367,
+    "home": "Gremio",
+    "away": "Flamengo",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "317",
+        "away": "525"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%88"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/21",
+        "away": "0/9"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "13.04.2025 23:30",
+    "attendance": 37566,
+    "home": "Sao Paulo",
+    "away": "Cruzeiro",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "327",
+        "away": "219"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%76"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "2/14",
+        "away": "5/23"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "21"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "14.04.2025 01:30",
+    "attendance": 46172,
+    "home": "Fluminense",
+    "away": "Santos",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "450",
+        "away": "293"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "3/17",
+        "away": "2/11"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "22"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "14.04.2025 02:00",
+    "attendance": 16587,
+    "home": "Fortaleza",
+    "away": "Internacional",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "386",
+        "away": "323"
+      },
+      "Pas Başarı(%)": {
+        "home": "%88",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "4/18",
+        "away": "1/12"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "14.04.2025 02:30",
+    "attendance": 23234,
+    "home": "Atletico Mineiro",
+    "away": "Vitoria",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%63",
+        "away": "%37"
+      },
+      "Toplam Şut": {
+        "home": "34",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "10",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "467",
+        "away": "246"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "16",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "9/37",
+        "away": "3/8"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "16.04.2025 03:30",
+    "attendance": 22693,
+    "home": "Ceara",
+    "away": "Vasco da Gama",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "268",
+        "away": "547"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%89"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "9/22",
+        "away": "9/26"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 00:30",
+    "attendance": 12014,
+    "home": "Botafogo",
+    "away": "Sao Paulo",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "23",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "441",
+        "away": "339"
+      },
+      "Pas Başarı(%)": {
+        "home": "%88",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "10/34",
+        "away": "4/11"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "4"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 01:00",
+    "attendance": 4147,
+    "home": "Mirassol FC",
+    "away": "Gremio",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%41",
+        "away": "%59"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "312",
+        "away": "468"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%89"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "5/14",
+        "away": "7/30"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 01:00",
+    "attendance": 12621,
+    "home": "Sport Recife",
+    "away": "RB Bragantino",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "7"
+      },
+      "Başarılı Paslar": {
+        "home": "397",
+        "away": "238"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "5/39",
+        "away": "4/13"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 01:30",
+    "attendance": 41138,
+    "home": "Corinthians",
+    "away": "Fluminense",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "442",
+        "away": "312"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "2/27",
+        "away": "2/11"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 01:30",
+    "attendance": 30665,
+    "home": "Internacional",
+    "away": "Palmeiras",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%67",
+        "away": "%33"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "508",
+        "away": "222"
+      },
+      "Pas Başarı(%)": {
+        "home": "%88",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "6/26",
+        "away": "2/10"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 03:30",
+    "attendance": 31445,
+    "home": "Flamengo",
+    "away": "Juventude",
+    "score": {
+      "fullTime": {
+        "home": "6",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%68",
+        "away": "%32"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "584",
+        "away": "252"
+      },
+      "Pas Başarı(%)": {
+        "home": "%92",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "6/20",
+        "away": "1/5"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 03:30",
+    "attendance": 15052,
+    "home": "Vitoria",
+    "away": "Fortaleza",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%40",
+        "away": "%60"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "324",
+        "away": "523"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%90"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "6/19",
+        "away": "8/29"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "17.04.2025 03:30",
+    "attendance": 10360,
+    "home": "Santos",
+    "away": "Atletico Mineiro",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "244",
+        "away": "468"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%88"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "3/7",
+        "away": "3/21"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "18"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "18.04.2025 03:30",
+    "attendance": 26557,
+    "home": "Cruzeiro",
+    "away": "Bahia",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "270",
+        "away": "433"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "1/19",
+        "away": "4/15"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 03:30",
+    "home": "Sao Paulo",
+    "away": "Fortaleza"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Ceara",
+    "away": "Vitoria"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Corinthians",
+    "away": "Internacional"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Fluminense",
+    "away": "Sport Recife"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 03:00",
+    "home": "Bahia",
+    "away": "Botafogo"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 22:00",
+    "home": "Gremio",
+    "away": "Santos"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 22:00",
+    "home": "Vasco da Gama",
+    "away": "Palmeiras"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 00:30",
+    "home": "Cruzeiro",
+    "away": "Flamengo"
+  },
+  {
+    "week": "7",
+    "date": "6.05.2025 01:00",
+    "home": "RB Bragantino",
+    "away": "Mirassol FC"
+  },
+  {
+    "week": "7",
+    "date": "6.05.2025 02:00",
+    "home": "Juventude",
+    "away": "Atletico Mineiro"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 22:00",
+    "home": "Fortaleza",
+    "away": "Juventude"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 00:30",
+    "home": "Gremio",
+    "away": "RB Bragantino"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 00:30",
+    "home": "Mirassol FC",
+    "away": "Corinthians"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 00:30",
+    "home": "Vitoria",
+    "away": "Vasco da Gama"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 03:00",
+    "home": "Flamengo",
+    "away": "Bahia"
+  },
+  {
+    "week": "5",
+    "date": "19.04.2025 22:00",
+    "attendance": 44996,
+    "home": "Corinthians",
+    "away": "Sport Recife",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "448",
+        "away": "289"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/9",
+        "away": "5/19"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "20.04.2025 00:30",
+    "attendance": 37007,
+    "home": "Vasco da Gama",
+    "away": "Flamengo",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "7"
+      },
+      "Başarılı Paslar": {
+        "home": "238",
+        "away": "488"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%90"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "11"
+      },
+      "Orta": {
+        "home": "2/13",
+        "away": "11/34"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "20.04.2025 03:00",
+    "attendance": 26899,
+    "home": "Gremio",
+    "away": "Internacional",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "182",
+        "away": "347"
+      },
+      "Pas Başarı(%)": {
+        "home": "%68",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "3/13",
+        "away": "6/18"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "20.04.2025 17:00",
+    "attendance": 5219,
+    "home": "Juventude",
+    "away": "Mirassol FC",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "25"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "267",
+        "away": "364"
+      },
+      "Pas Başarı(%)": {
+        "home": "%77",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "3/30",
+        "away": "6/23"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "20.04.2025 22:00",
+    "attendance": 52436,
+    "home": "Sao Paulo",
+    "away": "Santos",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%41",
+        "away": "%59"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "256",
+        "away": "381"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "0/11",
+        "away": "10/25"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "20.04.2025 22:00",
+    "attendance": 24528,
+    "home": "Atletico Mineiro",
+    "away": "Botafogo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "342",
+        "away": "272"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/21",
+        "away": "4/11"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "21.04.2025 00:30",
+    "attendance": 29065,
+    "home": "Fluminense",
+    "away": "Vitoria",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "598",
+        "away": "348"
+      },
+      "Pas Başarı(%)": {
+        "home": "%92",
+        "away": "%88"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/26",
+        "away": "2/17"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "21.04.2025 00:30",
+    "attendance": 23877,
+    "home": "Fortaleza",
+    "away": "Palmeiras",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "312",
+        "away": "291"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "5/24",
+        "away": "1/9"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "21.04.2025 02:30",
+    "attendance": 6840,
+    "home": "RB Bragantino",
+    "away": "Cruzeiro",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "277",
+        "away": "400"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "9"
+      },
+      "Orta": {
+        "home": "8/17",
+        "away": "4/29"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "22.04.2025 02:00",
+    "attendance": 27834,
+    "home": "Bahia",
+    "away": "Ceara",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%65",
+        "away": "%35"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "516",
+        "away": "244"
+      },
+      "Pas Başarı(%)": {
+        "home": "%90",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "5/23",
+        "away": "5/19"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "18"
+      },
+      "Ofsayt": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 03:30",
+    "home": "Sao Paulo",
+    "away": "Fortaleza"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Ceara",
+    "away": "Vitoria"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Corinthians",
+    "away": "Internacional"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Fluminense",
+    "away": "Sport Recife"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 03:00",
+    "home": "Bahia",
+    "away": "Botafogo"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 22:00",
+    "home": "Gremio",
+    "away": "Santos"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 22:00",
+    "home": "Vasco da Gama",
+    "away": "Palmeiras"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 00:30",
+    "home": "Cruzeiro",
+    "away": "Flamengo"
+  },
+  {
+    "week": "7",
+    "date": "6.05.2025 01:00",
+    "home": "RB Bragantino",
+    "away": "Mirassol FC"
+  },
+  {
+    "week": "7",
+    "date": "6.05.2025 02:00",
+    "home": "Juventude",
+    "away": "Atletico Mineiro"
+  },
+  {
+    "week": "6",
+    "date": "26.04.2025 22:00",
+    "attendance": 35427,
+    "home": "Internacional",
+    "away": "Juventude",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "327",
+        "away": "294"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "7/15",
+        "away": "2/13"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 00:30",
+    "attendance": 4966,
+    "home": "Mirassol FC",
+    "away": "Atletico Mineiro",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "213",
+        "away": "386"
+      },
+      "Pas Başarı(%)": {
+        "home": "%75",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "8/21",
+        "away": "4/23"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "5"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 00:30",
+    "attendance": 46929,
+    "home": "Ceara",
+    "away": "Sao Paulo",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%40",
+        "away": "%60"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "236",
+        "away": "384"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "4/14",
+        "away": "3/17"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "19"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 02:00",
+    "attendance": -1,
+    "home": "Sport Recife",
+    "away": "Fortaleza",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "416",
+        "away": "276"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%76"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/23",
+        "away": "2/16"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 03:00",
+    "attendance": -1,
+    "home": "Botafogo",
+    "away": "Fluminense",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "344",
+        "away": "551"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%89"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "6/16",
+        "away": "1/12"
+      },
+      "Faul": {
+        "home": "21",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "27.04.2025 22:00",
+    "attendance": -1,
+    "home": "Flamengo",
+    "away": "Corinthians",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "474",
+        "away": "395"
+      },
+      "Pas Başarı(%)": {
+        "home": "%92",
+        "away": "%90"
+      },
+      "Korner": {
+        "home": "10",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "3/13",
+        "away": "6/16"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "28.04.2025 00:30",
+    "attendance": 18688,
+    "home": "Vitoria",
+    "away": "Gremio",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "8"
+      },
+      "Başarılı Paslar": {
+        "home": "387",
+        "away": "323"
+      },
+      "Pas Başarı(%)": {
+        "home": "%88",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "10/35",
+        "away": "3/9"
+      },
+      "Faul": {
+        "home": "20",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "28.04.2025 00:30",
+    "attendance": 29033,
+    "home": "Palmeiras",
+    "away": "Bahia",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "364",
+        "away": "392"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "10/31",
+        "away": "4/10"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "28.04.2025 00:30",
+    "attendance": -1,
+    "home": "Cruzeiro",
+    "away": "Vasco da Gama",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "259",
+        "away": "362"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "8/25",
+        "away": "12/31"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "28.04.2025 02:30",
+    "attendance": 7679,
+    "home": "Santos",
+    "away": "RB Bragantino",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "319",
+        "away": "277"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "10"
+      },
+      "Orta": {
+        "home": "10/26",
+        "away": "4/16"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "3.05.2025 03:30",
+    "home": "Sao Paulo",
+    "away": "Fortaleza"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Ceara",
+    "away": "Vitoria"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Corinthians",
+    "away": "Internacional"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 00:30",
+    "home": "Fluminense",
+    "away": "Sport Recife"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 03:00",
+    "home": "Bahia",
+    "away": "Botafogo"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 22:00",
+    "home": "Gremio",
+    "away": "Santos"
+  },
+  {
+    "week": "7",
+    "date": "4.05.2025 22:00",
+    "home": "Vasco da Gama",
+    "away": "Palmeiras"
+  },
+  {
+    "week": "7",
+    "date": "5.05.2025 00:30",
+    "home": "Cruzeiro",
+    "away": "Flamengo"
+  },
+  {
+    "week": "7",
+    "date": "6.05.2025 01:00",
+    "home": "RB Bragantino",
+    "away": "Mirassol FC"
+  },
+  {
+    "week": "7",
+    "date": "6.05.2025 02:00",
+    "home": "Juventude",
+    "away": "Atletico Mineiro"
+  },
+  {
+    "week": "8",
+    "date": "10.05.2025 22:00",
+    "home": "Fortaleza",
+    "away": "Juventude"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 00:30",
+    "home": "Gremio",
+    "away": "RB Bragantino"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 00:30",
+    "home": "Mirassol FC",
+    "away": "Corinthians"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 00:30",
+    "home": "Vitoria",
+    "away": "Vasco da Gama"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 03:00",
+    "home": "Flamengo",
+    "away": "Bahia"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 22:00",
+    "home": "Sport Recife",
+    "away": "Cruzeiro"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 23:30",
+    "home": "Atletico Mineiro",
+    "away": "Fluminense"
+  },
+  {
+    "week": "8",
+    "date": "11.05.2025 23:30",
+    "home": "Palmeiras",
+    "away": "Sao Paulo"
+  },
+  {
+    "week": "8",
+    "date": "12.05.2025 02:00",
+    "home": "Botafogo",
+    "away": "Internacional"
+  },
+  {
+    "week": "8",
+    "date": "13.05.2025 02:00",
+    "home": "Santos",
+    "away": "Ceara"
+  }
+]

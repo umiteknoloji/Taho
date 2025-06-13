@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chip Gaussian Process Futbol Tahmin Sistemi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .neural-engine-status {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .neural-chip {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .chip-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .chip-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 1.5em;
+        }
+
+        .chip-m2 { background: linear-gradient(45deg, #FF6B6B, #FF8E53); }
+        .chip-m3 { background: linear-gradient(45deg, #4ECDC4, #44A08D); }
+
+        .chip-status {
+            flex: 1;
+        }
+
+        .chip-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .chip-load {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .load-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .load-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s ease;
+        }
+
+        .load-optimal { background: linear-gradient(45deg, #4CAF50, #8BC34A); }
+        .load-busy { background: linear-gradient(45deg, #FF9800, #FF5722); }
+        .load-error { background: linear-gradient(45deg, #F44336, #E91E63); }
+
+        .control-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .control-section {
+            margin-bottom: 25px;
+        }
+
+        .control-section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #555;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-success {
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4);
+        }
+
+        .btn-danger {
+            background: linear-gradient(45deg, #f44336, #da190b);
+            color: white;
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        .training-status {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 30px;
+            display: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(45deg, #4CAF50, #8BC34A);
+            border-radius: 10px;
+            transition: width 0.3s ease;
+        }
+
+        .results-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            display: none;
+        }
+
+        .prediction-card {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .teams {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .prediction-result {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        .probabilities {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .prob-item {
+            text-align: center;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+        }
+
+        .prob-label {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .prob-value {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .confidence {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .confidence-badge {
+            background: linear-gradient(45deg, #4CAF50, #8BC34A);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-weight: 600;
+        }
+
+        .alert {
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .alert-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .hidden { display: none !important; }
+
+        @media (max-width: 768px) {
+            .container { padding: 10px; }
+            .header h1 { font-size: 2em; }
+            .neural-engine-status { grid-template-columns: 1fr; }
+            .probabilities { grid-template-columns: 1fr; }
+            .match-header { flex-direction: column; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧠 AI Chip Gaussian Process</h1>
+            <div class="subtitle">M2 & M3 Neural Engine Futbol Tahmin Sistemi</div>
+        </div>
+
+        <!-- Neural Engine Status -->
+        <div class="neural-engine-status" id="neuralStatus">
+            <div class="neural-chip">
+                <div class="chip-header">
+                    <div class="chip-icon chip-m2">🔥</div>
+                    <div class="chip-status">
+                        <div class="chip-name">M2 Neural Engine</div>
+                        <div class="chip-load" id="m2Status">Kontrol ediliyor...</div>
+                    </div>
+                </div>
+                <div class="load-bar">
+                    <div class="load-fill" id="m2LoadBar" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div class="neural-chip">
+                <div class="chip-header">
+                    <div class="chip-icon chip-m3">⚡</div>
+                    <div class="chip-status">
+                        <div class="chip-name">M3 Neural Engine</div>
+                        <div class="chip-load" id="m3Status">Kontrol ediliyor...</div>
+                    </div>
+                </div>
+                <div class="load-bar">
+                    <div class="load-fill" id="m3LoadBar" style="width: 0%"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Control Panel -->
+        <div class="control-panel">
+            <div class="control-section">
+                <h3>🎯 Model Eğitimi</h3>
+                <div class="form-group">
+                    <label for="leagueSelect">Lig Seçin:</label>
+                    <select id="leagueSelect" class="form-control">
+                        <option value="">Lig yükleniyor...</option>
+                    </select>
+                </div>
+                <button id="trainBtn" class="btn btn-primary">
+                    🧠 Gaussian Process Eğitimi Başlat
+                </button>
+                <button id="resetBtn" class="btn btn-danger">
+                    🔄 Sistemi Sıfırla
+                </button>
+            </div>
+
+            <div class="control-section">
+                <h3>⚽ Maç Tahmini</h3>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+                    <div class="form-group">
+                        <label for="homeTeam">Ev Sahibi Takım:</label>
+                        <input type="text" id="homeTeam" class="form-control" placeholder="Örn: Barcelona">
+                    </div>
+                    <div class="form-group">
+                        <label for="awayTeam">Deplasman Takımı:</label>
+                        <input type="text" id="awayTeam" class="form-control" placeholder="Örn: Real Madrid">
+                    </div>
+                </div>
+                <button id="predictSingleBtn" class="btn btn-success">
+                    🎯 Tek Maç Tahmini
+                </button>
+                <button id="predictAllBtn" class="btn btn-primary">
+                    📊 Tüm Oynanmamış Maçları Tahmin Et
+                </button>
+            </div>
+        </div>
+
+        <!-- Training Status -->
+        <div class="training-status" id="trainingStatus">
+            <h3>🧠 Eğitim Durumu</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+            <div id="trainingMessage">Eğitim hazırlanıyor...</div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="resultsSection">
+            <h3 id="resultsTitle">🎯 Tahmin Sonuçları</h3>
+            <div id="resultsContainer"></div>
+        </div>
+    </div>
+
+    <script>
+        let currentPredictor = null;
+        let trainingTimer = null;
+
+        // Sayfa yüklendiğinde
+        document.addEventListener('DOMContentLoaded', function() {
+            loadLeagues();
+            updateNeuralEngineStatus();
+            
+            // Her 5 saniyede Neural Engine durumunu güncelle
+            setInterval(updateNeuralEngineStatus, 5000);
+        });
+
+        // Ligleri yükle
+        async function loadLeagues() {
+            try {
+                const response = await fetch('/api/leagues');
+                const leagues = await response.json();
+                
+                const select = document.getElementById('leagueSelect');
+                select.innerHTML = '<option value="">Lig seçin...</option>';
+                
+                Object.entries(leagues).forEach(([code, info]) => {
+                    const option = document.createElement('option');
+                    option.value = code;
+                    option.textContent = info.name;
+                    select.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Lig yükleme hatası:', error);
+            }
+        }
+
+        // Neural Engine durumunu güncelle
+        async function updateNeuralEngineStatus() {
+            try {
+                const response = await fetch('/api/neural-engine-status');
+                const stats = await response.json();
+                
+                // M2 Status
+                const m2 = stats.M2_Neural_Engine;
+                document.getElementById('m2Status').textContent = 
+                    `${m2.status} - Load: ${m2.neural_load.toFixed(1)}% - CPU: ${m2.cpu_usage.toFixed(1)}%`;
+                
+                const m2Bar = document.getElementById('m2LoadBar');
+                m2Bar.style.width = `${m2.neural_load}%`;
+                m2Bar.className = `load-fill load-${m2.neural_load < 70 ? 'optimal' : 'busy'}`;
+                
+                // M3 Status
+                const m3 = stats.M3_Neural_Engine;
+                document.getElementById('m3Status').textContent = 
+                    `${m3.status} - Load: ${m3.neural_load.toFixed(1)}% - CPU: ${m3.cpu_usage.toFixed(1)}%`;
+                
+                const m3Bar = document.getElementById('m3LoadBar');
+                m3Bar.style.width = `${m3.neural_load}%`;
+                m3Bar.className = `load-fill load-${m3.neural_load < 70 ? 'optimal' : 'busy'}`;
+                
+            } catch (error) {
+                console.error('Neural Engine durum hatası:', error);
+            }
+        }
+
+        // Model eğitimi
+        document.getElementById('trainBtn').addEventListener('click', async function() {
+            const league = document.getElementById('leagueSelect').value;
+            if (!league) {
+                alert('Lütfen bir lig seçin!');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/train-model', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ league: league })
+                });
+
+                if (response.ok) {
+                    document.getElementById('trainingStatus').style.display = 'block';
+                    document.getElementById('trainBtn').disabled = true;
+                    
+                    // Eğitim durumunu takip et
+                    trainingTimer = setInterval(checkTrainingStatus, 1000);
+                } else {
+                    const error = await response.json();
+                    alert('Eğitim başlatma hatası: ' + error.error);
+                }
+            } catch (error) {
+                alert('Eğitim hatası: ' + error.message);
+            }
+        });
+
+        // Eğitim durumunu kontrol et
+        async function checkTrainingStatus() {
+            try {
+                const response = await fetch('/api/training-status');
+                const status = await response.json();
+                
+                document.getElementById('progressFill').style.width = `${status.progress}%`;
+                document.getElementById('trainingMessage').textContent = status.message;
+                
+                if (status.status === 'completed') {
+                    clearInterval(trainingTimer);
+                    document.getElementById('trainBtn').disabled = false;
+                    document.getElementById('trainBtn').textContent = '✅ Eğitim Tamamlandı';
+                    setTimeout(() => {
+                        document.getElementById('trainBtn').textContent = '🧠 Gaussian Process Eğitimi Başlat';
+                    }, 3000);
+                } else if (status.status === 'error') {
+                    clearInterval(trainingTimer);
+                    document.getElementById('trainBtn').disabled = false;
+                    alert('Eğitim hatası: ' + status.message);
+                }
+            } catch (error) {
+                console.error('Eğitim durum hatası:', error);
+            }
+        }
+
+        // Tek maç tahmini
+        document.getElementById('predictSingleBtn').addEventListener('click', async function() {
+            const homeTeam = document.getElementById('homeTeam').value.trim();
+            const awayTeam = document.getElementById('awayTeam').value.trim();
+            
+            if (!homeTeam || !awayTeam) {
+                alert('Lütfen her iki takım ismini de girin!');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/predict-single', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        home_team: homeTeam, 
+                        away_team: awayTeam 
+                    })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    displaySinglePrediction(result.prediction);
+                } else {
+                    alert('Tahmin hatası: ' + result.error);
+                }
+            } catch (error) {
+                alert('Tahmin hatası: ' + error.message);
+            }
+        });
+
+        // Tüm oynanmamış maçları tahmin et
+        document.getElementById('predictAllBtn').addEventListener('click', async function() {
+            try {
+                document.getElementById('predictAllBtn').disabled = true;
+                document.getElementById('predictAllBtn').textContent = '🔄 Tahminler yapılıyor...';
+                
+                const response = await fetch('/api/predict-unplayed', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    displayAllPredictions(result.predictions);
+                } else {
+                    alert('Tahmin hatası: ' + result.error);
+                }
+            } catch (error) {
+                alert('Tahmin hatası: ' + error.message);
+            } finally {
+                document.getElementById('predictAllBtn').disabled = false;
+                document.getElementById('predictAllBtn').textContent = '📊 Tüm Oynanmamış Maçları Tahmin Et';
+            }
+        });
+
+        // Tek tahmin göster
+        function displaySinglePrediction(prediction) {
+            const resultsSection = document.getElementById('resultsSection');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const resultsTitle = document.getElementById('resultsTitle');
+            
+            resultsTitle.textContent = '🎯 Tek Maç Tahmini';
+            resultsContainer.innerHTML = createPredictionCard(prediction);
+            resultsSection.style.display = 'block';
+        }
+
+        // Tüm tahminleri göster
+        function displayAllPredictions(predictions) {
+            const resultsSection = document.getElementById('resultsSection');
+            const resultsContainer = document.getElementById('resultsContainer');
+            const resultsTitle = document.getElementById('resultsTitle');
+            
+            resultsTitle.textContent = `📊 ${predictions.length} Oynanmamış Maç Tahmini`;
+            
+            let html = '';
+            predictions.slice(0, 20).forEach(prediction => {  // İlk 20 tahmini göster
+                html += createPredictionCard(prediction);
+            });
+            
+            if (predictions.length > 20) {
+                html += `<div class="alert alert-success">
+                    <strong>+ ${predictions.length - 20} maç daha tahmin edildi!</strong>
+                </div>`;
+            }
+            
+            resultsContainer.innerHTML = html;
+            resultsSection.style.display = 'block';
+        }
+
+        // Tahmin kartı oluştur
+        function createPredictionCard(prediction) {
+            return `
+                <div class="prediction-card">
+                    <div class="match-header">
+                        <div class="teams">
+                            🏠 ${prediction.home_team} vs ${prediction.away_team} ✈️
+                        </div>
+                        <div class="prediction-result">
+                            ${prediction.predicted_result} - ${prediction.result_meaning}
+                        </div>
+                    </div>
+                    
+                    <div class="probabilities">
+                        <div class="prob-item">
+                            <div class="prob-label">Ev Sahibi</div>
+                            <div class="prob-value">${prediction.home_win_prob}%</div>
+                        </div>
+                        <div class="prob-item">
+                            <div class="prob-label">Beraberlik</div>
+                            <div class="prob-value">${prediction.draw_prob}%</div>
+                        </div>
+                        <div class="prob-item">
+                            <div class="prob-label">Deplasman</div>
+                            <div class="prob-value">${prediction.away_win_prob}%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="confidence">
+                        <span class="confidence-badge">
+                            Güven: ${prediction.confidence}% | Method: ${prediction.method}
+                        </span>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Sistemi sıfırla
+        document.getElementById('resetBtn').addEventListener('click', async function() {
+            if (confirm('Sistemi sıfırlamak istediğinizden emin misiniz?')) {
+                try {
+                    const response = await fetch('/api/reset-system', {
+                        method: 'POST'
+                    });
+
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        alert('Sistem sıfırlama hatası');
+                    }
+                } catch (error) {
+                    alert('Sistem sıfırlama hatası: ' + error.message);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

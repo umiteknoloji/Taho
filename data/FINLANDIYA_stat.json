@@ -1,0 +1,1191 @@
+[
+  {
+    "week": "1",
+    "date": "5.04.2025 15:00",
+    "attendance": 7651,
+    "home": "Ilves Tampere",
+    "away": "HJK Helsinki",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "497",
+        "away": "352"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "5/15",
+        "away": "5/9"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "5.04.2025 17:00",
+    "attendance": 1224,
+    "home": "IFK Mariehamn",
+    "away": "Jaro",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "475",
+        "away": "241"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "7/28",
+        "away": "4/10"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "5.04.2025 17:00",
+    "attendance": 2248,
+    "home": "VPS",
+    "away": "Oulu",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "361",
+        "away": "218"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%70"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "5/23",
+        "away": "4/10"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "5.04.2025 17:00",
+    "attendance": 3837,
+    "home": "Inter Turku",
+    "away": "KuPS Kuopio",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "438",
+        "away": "362"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "9/16",
+        "away": "2/9"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "5.04.2025 17:00",
+    "attendance": 2245,
+    "home": "KTP Kotka",
+    "away": "SJK Seinajoki",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "21"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "9"
+      },
+      "Başarılı Paslar": {
+        "home": "256",
+        "away": "323"
+      },
+      "Pas Başarı(%)": {
+        "home": "%76",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "6/15",
+        "away": "6/29"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "5.04.2025 19:00",
+    "attendance": 2635,
+    "home": "Haka",
+    "away": "Gnistan",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "326",
+        "away": "205"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%67"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "11"
+      },
+      "Orta": {
+        "home": "8/23",
+        "away": "8/35"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "11.04.2025 18:00",
+    "attendance": 1755,
+    "home": "KTP Kotka",
+    "away": "VPS",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "23"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "256",
+        "away": "348"
+      },
+      "Pas Başarı(%)": {
+        "home": "%74",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "4/12",
+        "away": "15/39"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "11.04.2025 20:00",
+    "attendance": 4048,
+    "home": "SJK Seinajoki",
+    "away": "HJK Helsinki",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "316",
+        "away": "458"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "6/16",
+        "away": "2/15"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "12.04.2025 14:30",
+    "attendance": 3902,
+    "home": "Ilves Tampere",
+    "away": "Jaro",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "603",
+        "away": "349"
+      },
+      "Pas Başarı(%)": {
+        "home": "%90",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "4/10",
+        "away": "5/12"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "12.04.2025 15:00",
+    "attendance": 2480,
+    "home": "Haka",
+    "away": "IFK Mariehamn",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "387",
+        "away": "184"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%69"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "8/32",
+        "away": "2/14"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "19"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "12.04.2025 17:00",
+    "attendance": 2466,
+    "home": "Inter Turku",
+    "away": "Gnistan",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "3"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "331",
+        "away": "381"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "12",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "10/24",
+        "away": "2/13"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "12.04.2025 19:23",
+    "attendance": 1784,
+    "home": "KuPS Kuopio",
+    "away": "Oulu",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "526",
+        "away": "354"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "2/5",
+        "away": "1/15"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "19.04.2025 15:00",
+    "attendance": 2481,
+    "home": "VPS",
+    "away": "Inter Turku",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "7"
+      },
+      "Başarılı Paslar": {
+        "home": "262",
+        "away": "376"
+      },
+      "Pas Başarı(%)": {
+        "home": "%75",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "10",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "6/22",
+        "away": "7/13"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "19.04.2025 17:00",
+    "attendance": 1009,
+    "home": "IFK Mariehamn",
+    "away": "SJK Seinajoki",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "18"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "247",
+        "away": "502"
+      },
+      "Pas Başarı(%)": {
+        "home": "%74",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "2/8",
+        "away": "14/39"
+      },
+      "Faul": {
+        "home": "7",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "19.04.2025 17:00",
+    "attendance": 2715,
+    "home": "KTP Kotka",
+    "away": "Ilves Tampere",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "5"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%47",
+        "away": "%53"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "23"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "9"
+      },
+      "Başarılı Paslar": {
+        "home": "343",
+        "away": "404"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "5/9",
+        "away": "5/13"
+      },
+      "Faul": {
+        "home": "7",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "19.04.2025 17:00",
+    "attendance": 2593,
+    "home": "Haka",
+    "away": "Oulu",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "385",
+        "away": "287"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "3/22",
+        "away": "2/16"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "19.04.2025 19:00",
+    "attendance": 2124,
+    "home": "KuPS Kuopio",
+    "away": "Jaro",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "487",
+        "away": "276"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "5/24",
+        "away": "2/12"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "5",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "22.04.2025 19:00",
+    "attendance": 6220,
+    "home": "HJK Helsinki",
+    "away": "Gnistan",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "463",
+        "away": "236"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%73"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "5/19",
+        "away": "4/15"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 18:00",
+    "home": "Haka",
+    "away": "Jaro"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 18:00",
+    "home": "KTP Kotka",
+    "away": "Oulu"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 18:00",
+    "home": "VPS",
+    "away": "Ilves Tampere"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 20:00",
+    "home": "KuPS Kuopio",
+    "away": "SJK Seinajoki"
+  },
+  {
+    "week": "5",
+    "date": "3.05.2025 15:00",
+    "home": "Gnistan",
+    "away": "IFK Mariehamn"
+  },
+  {
+    "week": "5",
+    "date": "3.05.2025 17:00",
+    "home": "Inter Turku",
+    "away": "HJK Helsinki"
+  },
+  {
+    "week": "6",
+    "date": "9.05.2025 19:31",
+    "home": "Ilves Tampere",
+    "away": "Haka"
+  },
+  {
+    "week": "6",
+    "date": "10.05.2025 15:00",
+    "home": "KuPS Kuopio",
+    "away": "KTP Kotka"
+  },
+  {
+    "week": "6",
+    "date": "10.05.2025 17:00",
+    "home": "IFK Mariehamn",
+    "away": "Inter Turku"
+  },
+  {
+    "week": "6",
+    "date": "10.05.2025 19:00",
+    "home": "Oulu",
+    "away": "Gnistan"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 16:00",
+    "home": "Jaro",
+    "away": "HJK Helsinki"
+  },
+  {
+    "week": "6",
+    "date": "12.05.2025 19:00",
+    "home": "SJK Seinajoki",
+    "away": "VPS"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 18:00",
+    "home": "Haka",
+    "away": "Jaro"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 18:00",
+    "home": "KTP Kotka",
+    "away": "Oulu"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 18:00",
+    "home": "VPS",
+    "away": "Ilves Tampere"
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 20:00",
+    "home": "KuPS Kuopio",
+    "away": "SJK Seinajoki"
+  },
+  {
+    "week": "5",
+    "date": "3.05.2025 15:00",
+    "home": "Gnistan",
+    "away": "IFK Mariehamn"
+  },
+  {
+    "week": "5",
+    "date": "3.05.2025 17:00",
+    "home": "Inter Turku",
+    "away": "HJK Helsinki"
+  },
+  {
+    "week": "6",
+    "date": "9.05.2025 19:31",
+    "home": "Ilves Tampere",
+    "away": "Haka"
+  },
+  {
+    "week": "6",
+    "date": "10.05.2025 15:00",
+    "home": "KuPS Kuopio",
+    "away": "KTP Kotka"
+  },
+  {
+    "week": "6",
+    "date": "10.05.2025 17:00",
+    "home": "IFK Mariehamn",
+    "away": "Inter Turku"
+  },
+  {
+    "week": "6",
+    "date": "10.05.2025 19:00",
+    "home": "Oulu",
+    "away": "Gnistan"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 16:00",
+    "home": "Jaro",
+    "away": "HJK Helsinki"
+  },
+  {
+    "week": "6",
+    "date": "12.05.2025 19:00",
+    "home": "SJK Seinajoki",
+    "away": "VPS"
+  },
+  {
+    "week": "4",
+    "date": "26.04.2025 15:00",
+    "attendance": 1886,
+    "home": "Oulu",
+    "away": "Inter Turku",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "4"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "9"
+      },
+      "Başarılı Paslar": {
+        "home": "318",
+        "away": "252"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "1/10",
+        "away": "8/14"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "0"
+      }
+    }
+  }
+]

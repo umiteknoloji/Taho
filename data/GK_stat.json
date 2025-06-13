@@ -1,0 +1,3616 @@
+[
+  {
+    "week": "1",
+    "date": "15.02.2025 07:00",
+    "attendance": 10519,
+    "home": "Pohang Steelers",
+    "away": "Daejeon Citizen",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%68",
+        "away": "%32"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "597",
+        "away": "226"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%71"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "6/27",
+        "away": "2/10"
+      },
+      "Faul": {
+        "home": "3",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 09:30",
+    "attendance": 11049,
+    "home": "Jeju United",
+    "away": "FC Seoul",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "341",
+        "away": "463"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/10",
+        "away": "4/17"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "15.02.2025 10:30",
+    "attendance": 4690,
+    "home": "Gwangju",
+    "away": "Suwon City",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "427",
+        "away": "405"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "5/13",
+        "away": "0/11"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "16.02.2025 08:00",
+    "attendance": 18718,
+    "home": "Ulsan Hyundai",
+    "away": "Anyang",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%66",
+        "away": "%34"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "510",
+        "away": "221"
+      },
+      "Pas Başarı(%)": {
+        "home": "%85",
+        "away": "%72"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "6/27",
+        "away": "5/12"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "16.02.2025 10:30",
+    "attendance": 12240,
+    "home": "Daegu",
+    "away": "Gangwon",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "506",
+        "away": "274"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/18",
+        "away": "6/13"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "16.02.2025 10:30",
+    "attendance": 19619,
+    "home": "Jeonbuk Motors",
+    "away": "Gimcheon Sangmu",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "377",
+        "away": "351"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "10",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "7/29",
+        "away": "5/20"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 08:00",
+    "attendance": 5733,
+    "home": "Jeju United",
+    "away": "Gimcheon Sangmu",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "7"
+      },
+      "Başarılı Paslar": {
+        "home": "289",
+        "away": "275"
+      },
+      "Pas Başarı(%)": {
+        "home": "%73",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "0",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "4/12",
+        "away": "3/21"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 10:30",
+    "attendance": 41415,
+    "home": "FC Seoul",
+    "away": "Anyang",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "7"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "413",
+        "away": "393"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "11/27",
+        "away": "4/13"
+      },
+      "Faul": {
+        "home": "3",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "22.02.2025 10:30",
+    "attendance": 12098,
+    "home": "Daegu",
+    "away": "Suwon City",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "22",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "427",
+        "away": "313"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "5/16",
+        "away": "4/14"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "23.02.2025 08:00",
+    "attendance": 19628,
+    "home": "Daejeon Citizen",
+    "away": "Ulsan Hyundai",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "478",
+        "away": "261"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%69"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "3/27",
+        "away": "7/15"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "23.02.2025 10:30",
+    "attendance": 6539,
+    "home": "Gangwon",
+    "away": "Pohang Steelers",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "472",
+        "away": "246"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "8/22",
+        "away": "4/9"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "23.02.2025 10:30",
+    "attendance": 15393,
+    "home": "Jeonbuk Motors",
+    "away": "Gwangju",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "435",
+        "away": "300"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "6/32",
+        "away": "1/6"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "1.03.2025 08:00",
+    "attendance": 26317,
+    "home": "Ulsan Hyundai",
+    "away": "Jeonbuk Motors",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "357",
+        "away": "286"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "8/22",
+        "away": "10/23"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "1.03.2025 10:30",
+    "attendance": 11207,
+    "home": "Pohang Steelers",
+    "away": "Daegu",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "339",
+        "away": "326"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "4/27",
+        "away": "3/11"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "1.03.2025 10:30",
+    "attendance": 3319,
+    "home": "Gwangju",
+    "away": "Anyang",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "464",
+        "away": "271"
+      },
+      "Pas Başarı(%)": {
+        "home": "%85",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "4/18",
+        "away": "3/14"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "2.03.2025 08:00",
+    "attendance": 7220,
+    "home": "Daejeon Citizen",
+    "away": "Suwon City",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%62",
+        "away": "%38"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "0"
+      },
+      "Başarılı Paslar": {
+        "home": "585",
+        "away": "330"
+      },
+      "Pas Başarı(%)": {
+        "home": "%88",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "1/18",
+        "away": "4/12"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "2.03.2025 10:30",
+    "attendance": 5009,
+    "home": "Gangwon",
+    "away": "Jeju United",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "215",
+        "away": "343"
+      },
+      "Pas Başarı(%)": {
+        "home": "%66",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "8/20",
+        "away": "4/18"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "3.03.2025 08:00",
+    "attendance": 24889,
+    "home": "FC Seoul",
+    "away": "Gimcheon Sangmu",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "0"
+      },
+      "Başarılı Paslar": {
+        "home": "465",
+        "away": "366"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "4/16",
+        "away": "2/9"
+      },
+      "Faul": {
+        "home": "4",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "8.03.2025 08:00",
+    "attendance": 8661,
+    "home": "Suwon City",
+    "away": "FC Seoul",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "324",
+        "away": "474"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "1/19",
+        "away": "3/19"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "8.03.2025 10:30",
+    "attendance": 12168,
+    "home": "Daegu",
+    "away": "Daejeon Citizen",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%70",
+        "away": "%30"
+      },
+      "Toplam Şut": {
+        "home": "20",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "534",
+        "away": "192"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%71"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "9/42",
+        "away": "0/5"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "8.03.2025 10:30",
+    "attendance": 13579,
+    "home": "Anyang",
+    "away": "Gimcheon Sangmu",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "3"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "20"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "8"
+      },
+      "Başarılı Paslar": {
+        "home": "384",
+        "away": "300"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "5/17",
+        "away": "14/20"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "9.03.2025 08:00",
+    "attendance": 16749,
+    "home": "Ulsan Hyundai",
+    "away": "Jeju United",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "262",
+        "away": "315"
+      },
+      "Pas Başarı(%)": {
+        "home": "%73",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/21",
+        "away": "3/21"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "9.03.2025 10:30",
+    "attendance": 14090,
+    "home": "Jeonbuk Motors",
+    "away": "Gangwon",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "404",
+        "away": "441"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "5/17",
+        "away": "1/6"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "3"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "22.03.2025 10:30",
+    "attendance": 4544,
+    "home": "Gwangju",
+    "away": "Pohang Steelers",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "404",
+        "away": "289"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "6/17",
+        "away": "3/11"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "15.03.2025 08:00",
+    "attendance": 4651,
+    "home": "Jeju United",
+    "away": "Daejeon Citizen",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "388",
+        "away": "315"
+      },
+      "Pas Başarı(%)": {
+        "home": "%77",
+        "away": "%72"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/11",
+        "away": "2/14"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "5"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "15.03.2025 10:30",
+    "attendance": 12183,
+    "home": "Daegu",
+    "away": "Anyang",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "369",
+        "away": "225"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%69"
+      },
+      "Korner": {
+        "home": "14",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "10/51",
+        "away": "3/16"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "15.03.2025 10:30",
+    "attendance": 10231,
+    "home": "Gangwon",
+    "away": "FC Seoul",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "0",
+        "away": "8"
+      },
+      "Başarılı Paslar": {
+        "home": "450",
+        "away": "377"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "2/13",
+        "away": "3/13"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "16.03.2025 08:00",
+    "attendance": 5557,
+    "home": "Suwon City",
+    "away": "Ulsan Hyundai",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "23"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "203",
+        "away": "424"
+      },
+      "Pas Başarı(%)": {
+        "home": "%68",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "1/7",
+        "away": "10/25"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "19"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "5"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "16.03.2025 10:30",
+    "attendance": 10442,
+    "home": "Jeonbuk Motors",
+    "away": "Pohang Steelers",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%32",
+        "away": "%68"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "215",
+        "away": "543"
+      },
+      "Pas Başarı(%)": {
+        "home": "%76",
+        "away": "%90"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "3/13",
+        "away": "11/38"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "16.03.2025 10:30",
+    "attendance": 3193,
+    "home": "Gimcheon Sangmu",
+    "away": "Gwangju",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "576",
+        "away": "343"
+      },
+      "Pas Başarı(%)": {
+        "home": "%87",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "6/27",
+        "away": "5/8"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "6"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "29.03.2025 08:00",
+    "attendance": 25258,
+    "home": "FC Seoul",
+    "away": "Daegu",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "23",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "300",
+        "away": "314"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/23",
+        "away": "4/13"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "29.03.2025 10:30",
+    "attendance": 12565,
+    "home": "Pohang Steelers",
+    "away": "Ulsan Hyundai",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%35",
+        "away": "%65"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "1"
+      },
+      "Başarılı Paslar": {
+        "home": "189",
+        "away": "453"
+      },
+      "Pas Başarı(%)": {
+        "home": "%64",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "3/17",
+        "away": "3/12"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "29.03.2025 10:30",
+    "attendance": 11469,
+    "home": "Daejeon Citizen",
+    "away": "Gwangju",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "437",
+        "away": "284"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/24",
+        "away": "2/10"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "30.03.2025 08:00",
+    "attendance": 10778,
+    "home": "Jeju United",
+    "away": "Suwon City",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "0"
+      },
+      "Başarılı Paslar": {
+        "home": "278",
+        "away": "352"
+      },
+      "Pas Başarı(%)": {
+        "home": "%71",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "5/12",
+        "away": "5/25"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "30.03.2025 10:30",
+    "attendance": 2026,
+    "home": "Gimcheon Sangmu",
+    "away": "Gangwon",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "294",
+        "away": "398"
+      },
+      "Pas Başarı(%)": {
+        "home": "%75",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "4/18",
+        "away": "6/15"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "6",
+    "date": "30.03.2025 10:30",
+    "attendance": 10031,
+    "home": "Anyang",
+    "away": "Jeonbuk Motors",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "391",
+        "away": "288"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "5/22",
+        "away": "1/13"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "5.04.2025 08:00",
+    "attendance": 20358,
+    "home": "Ulsan Hyundai",
+    "away": "FC Seoul",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%63",
+        "away": "%37"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "460",
+        "away": "237"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "1/12",
+        "away": "4/16"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "5.04.2025 10:30",
+    "attendance": 14622,
+    "home": "Daejeon Citizen",
+    "away": "Jeonbuk Motors",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "510",
+        "away": "329"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "5/24",
+        "away": "3/14"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "5.04.2025 10:30",
+    "attendance": 3740,
+    "home": "Gimcheon Sangmu",
+    "away": "Daegu",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "317",
+        "away": "373"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "4/13",
+        "away": "5/18"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "6"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "5.04.2025 13:00",
+    "attendance": 2924,
+    "home": "Suwon City",
+    "away": "Pohang Steelers",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%39",
+        "away": "%61"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "246",
+        "away": "408"
+      },
+      "Pas Başarı(%)": {
+        "home": "%72",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "7/14",
+        "away": "5/31"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "6.04.2025 10:30",
+    "attendance": 8127,
+    "home": "Anyang",
+    "away": "Gangwon",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%43",
+        "away": "%57"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "253",
+        "away": "364"
+      },
+      "Pas Başarı(%)": {
+        "home": "%76",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/17",
+        "away": "7/22"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "7",
+    "date": "6.04.2025 10:30",
+    "attendance": 3858,
+    "home": "Gwangju",
+    "away": "Jeju United",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "420",
+        "away": "330"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%76"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "6/19",
+        "away": "1/9"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "19"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "12.04.2025 08:00",
+    "attendance": 2066,
+    "home": "Suwon City",
+    "away": "Gimcheon Sangmu",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "318",
+        "away": "280"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "7/19",
+        "away": "6/30"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "12.04.2025 10:30",
+    "attendance": 20284,
+    "home": "FC Seoul",
+    "away": "Daejeon Citizen",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%46",
+        "away": "%54"
+      },
+      "Toplam Şut": {
+        "home": "21",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "246",
+        "away": "307"
+      },
+      "Pas Başarı(%)": {
+        "home": "%74",
+        "away": "%76"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "9/21",
+        "away": "3/16"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "12.04.2025 10:30",
+    "attendance": 8354,
+    "home": "Pohang Steelers",
+    "away": "Anyang",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "344",
+        "away": "268"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%74"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "7/24",
+        "away": "3/20"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "13.04.2025 08:00",
+    "attendance": 5080,
+    "home": "Gangwon",
+    "away": "Gwangju",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%32",
+        "away": "%68"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "193",
+        "away": "483"
+      },
+      "Pas Başarı(%)": {
+        "home": "%71",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "4/12",
+        "away": "2/15"
+      },
+      "Faul": {
+        "home": "20",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "13.04.2025 10:30",
+    "attendance": 12218,
+    "home": "Daegu",
+    "away": "Ulsan Hyundai",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%34",
+        "away": "%66"
+      },
+      "Toplam Şut": {
+        "home": "15",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "213",
+        "away": "468"
+      },
+      "Pas Başarı(%)": {
+        "home": "%75",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "9"
+      },
+      "Orta": {
+        "home": "4/21",
+        "away": "7/37"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "8",
+    "date": "13.04.2025 10:30",
+    "attendance": 12218,
+    "home": "Jeonbuk Motors",
+    "away": "Jeju United",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%47",
+        "away": "%53"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "317",
+        "away": "367"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "8/17",
+        "away": "4/11"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "19.04.2025 08:00",
+    "attendance": 13536,
+    "home": "Ulsan Hyundai",
+    "away": "Gangwon",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%72",
+        "away": "%28"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "440",
+        "away": "119"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%57"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "7/28",
+        "away": "5/9"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "19.04.2025 10:30",
+    "attendance": 2789,
+    "home": "Gimcheon Sangmu",
+    "away": "Daejeon Citizen",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "357",
+        "away": "381"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "4/20",
+        "away": "4/16"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "19.04.2025 10:30",
+    "attendance": 4508,
+    "home": "Anyang",
+    "away": "Suwon City",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%48",
+        "away": "%52"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "304",
+        "away": "320"
+      },
+      "Pas Başarı(%)": {
+        "home": "%79",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "1/16",
+        "away": "4/26"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "19.04.2025 13:00",
+    "attendance": 19234,
+    "home": "FC Seoul",
+    "away": "Gwangju",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%54",
+        "away": "%46"
+      },
+      "Toplam Şut": {
+        "home": "29",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "324",
+        "away": "292"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "10/26",
+        "away": "1/9"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "20.04.2025 10:30",
+    "attendance": 5531,
+    "home": "Jeju United",
+    "away": "Pohang Steelers",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "295",
+        "away": "381"
+      },
+      "Pas Başarı(%)": {
+        "home": "%77",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "4/9",
+        "away": "3/14"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "9",
+    "date": "20.04.2025 10:30",
+    "attendance": 12897,
+    "home": "Jeonbuk Motors",
+    "away": "Daegu",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%50",
+        "away": "%50"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "307",
+        "away": "304"
+      },
+      "Pas Başarı(%)": {
+        "home": "%78",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "5/17",
+        "away": "4/16"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "11",
+    "date": "2.05.2025 13:30",
+    "home": "Pohang Steelers",
+    "away": "Gimcheon Sangmu"
+  },
+  {
+    "week": "11",
+    "date": "2.05.2025 13:30",
+    "home": "Ulsan Hyundai",
+    "away": "Gwangju"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 10:30",
+    "home": "Daegu",
+    "away": "Jeju United"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 10:30",
+    "home": "Daejeon Citizen",
+    "away": "Anyang"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 13:00",
+    "home": "FC Seoul",
+    "away": "Jeonbuk Motors"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 13:00",
+    "home": "Gangwon",
+    "away": "Suwon City"
+  },
+  {
+    "week": "12",
+    "date": "5.05.2025 10:30",
+    "home": "Gwangju",
+    "away": "Gimcheon Sangmu"
+  },
+  {
+    "week": "12",
+    "date": "5.05.2025 10:30",
+    "home": "Ulsan Hyundai",
+    "away": "Pohang Steelers"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 08:00",
+    "home": "Jeonbuk Motors",
+    "away": "Daejeon Citizen"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 10:30",
+    "home": "Jeju United",
+    "away": "Gangwon"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 13:00",
+    "home": "Anyang",
+    "away": "FC Seoul"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 13:00",
+    "home": "Suwon City",
+    "away": "Daegu"
+  },
+  {
+    "week": "11",
+    "date": "2.05.2025 13:30",
+    "home": "Pohang Steelers",
+    "away": "Gimcheon Sangmu"
+  },
+  {
+    "week": "11",
+    "date": "2.05.2025 13:30",
+    "home": "Ulsan Hyundai",
+    "away": "Gwangju"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 10:30",
+    "home": "Daegu",
+    "away": "Jeju United"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 10:30",
+    "home": "Daejeon Citizen",
+    "away": "Anyang"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 13:00",
+    "home": "FC Seoul",
+    "away": "Jeonbuk Motors"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 13:00",
+    "home": "Gangwon",
+    "away": "Suwon City"
+  },
+  {
+    "week": "12",
+    "date": "5.05.2025 10:30",
+    "home": "Gwangju",
+    "away": "Gimcheon Sangmu"
+  },
+  {
+    "week": "12",
+    "date": "5.05.2025 10:30",
+    "home": "Ulsan Hyundai",
+    "away": "Pohang Steelers"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 08:00",
+    "home": "Jeonbuk Motors",
+    "away": "Daejeon Citizen"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 10:30",
+    "home": "Jeju United",
+    "away": "Gangwon"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 13:00",
+    "home": "Anyang",
+    "away": "FC Seoul"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 13:00",
+    "home": "Suwon City",
+    "away": "Daegu"
+  },
+  {
+    "week": "10",
+    "date": "9.04.2025 13:30",
+    "attendance": 1983,
+    "home": "Gwangju",
+    "away": "Daegu",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%45",
+        "away": "%55"
+      },
+      "Toplam Şut": {
+        "home": "6",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "354",
+        "away": "446"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "3/13",
+        "away": "2/21"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "10",
+    "date": "26.04.2025 08:00",
+    "attendance": 7131,
+    "home": "Suwon City",
+    "away": "Jeonbuk Motors",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%56",
+        "away": "%44"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "432",
+        "away": "325"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "5/21",
+        "away": "5/21"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "10",
+    "date": "26.04.2025 10:30",
+    "attendance": 5939,
+    "home": "Anyang",
+    "away": "Jeju United",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%33",
+        "away": "%67"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "16"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "200",
+        "away": "529"
+      },
+      "Pas Başarı(%)": {
+        "home": "%68",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "6/22",
+        "away": "7/28"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "10",
+    "date": "27.04.2025 08:00",
+    "attendance": 10984,
+    "home": "Pohang Steelers",
+    "away": "FC Seoul",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%37",
+        "away": "%63"
+      },
+      "Toplam Şut": {
+        "home": "8",
+        "away": "19"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "206",
+        "away": "410"
+      },
+      "Pas Başarı(%)": {
+        "home": "%74",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "10"
+      },
+      "Orta": {
+        "home": "4/13",
+        "away": "2/22"
+      },
+      "Faul": {
+        "home": "17",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "10",
+    "date": "27.04.2025 10:30",
+    "attendance": 3300,
+    "home": "Gimcheon Sangmu",
+    "away": "Ulsan Hyundai",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%32",
+        "away": "%68"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "205",
+        "away": "523"
+      },
+      "Pas Başarı(%)": {
+        "home": "%72",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "8/26",
+        "away": "5/21"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "10",
+    "date": "27.04.2025 10:30",
+    "attendance": 9412,
+    "home": "Daejeon Citizen",
+    "away": "Gangwon",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%65",
+        "away": "%35"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "1"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "0"
+      },
+      "Başarılı Paslar": {
+        "home": "413",
+        "away": "184"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%68"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "4/22",
+        "away": "0/11"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "11",
+    "date": "2.05.2025 13:30",
+    "attendance": 7405,
+    "home": "Pohang Steelers",
+    "away": "Gimcheon Sangmu",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%33",
+        "away": "%67"
+      },
+      "Toplam Şut": {
+        "home": "1",
+        "away": "2"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "1",
+        "away": "2"
+      },
+      "Pas Başarı(%)": {
+        "home": "%100",
+        "away": "%100"
+      },
+      "Korner": {
+        "home": "0",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "0/0",
+        "away": "0/0"
+      },
+      "Faul": {
+        "home": "0",
+        "away": "0"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "11",
+    "date": "2.05.2025 13:30",
+    "attendance": 9659,
+    "home": "Ulsan Hyundai",
+    "away": "Gwangju",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%100",
+        "away": "%0"
+      },
+      "Toplam Şut": {
+        "home": "3",
+        "away": "0"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "0"
+      },
+      "Başarılı Paslar": {
+        "home": "2",
+        "away": "0"
+      },
+      "Pas Başarı(%)": {
+        "home": "%100",
+        "away": "%NaN"
+      },
+      "Korner": {
+        "home": "0",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "0/0",
+        "away": "0/0"
+      },
+      "Faul": {
+        "home": "0",
+        "away": "0"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 10:30",
+    "home": "Daegu",
+    "away": "Jeju United"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 10:30",
+    "home": "Daejeon Citizen",
+    "away": "Anyang"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 13:00",
+    "home": "FC Seoul",
+    "away": "Jeonbuk Motors"
+  },
+  {
+    "week": "11",
+    "date": "3.05.2025 13:00",
+    "home": "Gangwon",
+    "away": "Suwon City"
+  },
+  {
+    "week": "12",
+    "date": "5.05.2025 10:30",
+    "home": "Gwangju",
+    "away": "Gimcheon Sangmu"
+  },
+  {
+    "week": "12",
+    "date": "5.05.2025 10:30",
+    "home": "Ulsan Hyundai",
+    "away": "Pohang Steelers"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 08:00",
+    "home": "Jeonbuk Motors",
+    "away": "Daejeon Citizen"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 10:30",
+    "home": "Jeju United",
+    "away": "Gangwon"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 13:00",
+    "home": "Anyang",
+    "away": "FC Seoul"
+  },
+  {
+    "week": "12",
+    "date": "6.05.2025 13:00",
+    "home": "Suwon City",
+    "away": "Daegu"
+  }
+]

@@ -1,0 +1,1954 @@
+[
+  {
+    "week": "1",
+    "date": "29.03.2025 18:00",
+    "attendance": 8332,
+    "home": "Stromsgodset",
+    "away": "Rosenborg",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "17"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "372",
+        "away": "342"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/17",
+        "away": "2/16"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "29.03.2025 20:00",
+    "attendance": 10788,
+    "home": "Fredrikstad",
+    "away": "Brann",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%27",
+        "away": "%73"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "147",
+        "away": "554"
+      },
+      "Pas Başarı(%)": {
+        "home": "%59",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "2/11",
+        "away": "5/23"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 15:30",
+    "attendance": 14859,
+    "home": "Valerenga",
+    "away": "Viking",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "16",
+        "away": "15"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "352",
+        "away": "289"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%76"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "7"
+      },
+      "Orta": {
+        "home": "7/27",
+        "away": "8/27"
+      },
+      "Faul": {
+        "home": "12",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 18:00",
+    "attendance": 3316,
+    "home": "HamKam",
+    "away": "Kristiansund BK",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%38",
+        "away": "%62"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "242",
+        "away": "457"
+      },
+      "Pas Başarı(%)": {
+        "home": "%73",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/16",
+        "away": "7/25"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 18:00",
+    "attendance": 5829,
+    "home": "Molde",
+    "away": "Sarpsborg 08",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "493",
+        "away": "356"
+      },
+      "Pas Başarı(%)": {
+        "home": "%85",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "9/36",
+        "away": "1/7"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 18:00",
+    "attendance": 1806,
+    "home": "KFUM Oslo",
+    "away": "Sandefjord",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%44",
+        "away": "%56"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "247",
+        "away": "363"
+      },
+      "Pas Başarı(%)": {
+        "home": "%69",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "5/20",
+        "away": "4/23"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 18:00",
+    "attendance": 4324,
+    "home": "Tromsö",
+    "away": "Haugesund",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%52",
+        "away": "%48"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "4"
+      },
+      "İsabetli Şut": {
+        "home": "9",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "425",
+        "away": "389"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%83"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "7/29",
+        "away": "5/11"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "1",
+    "date": "30.03.2025 20:15",
+    "attendance": 5151,
+    "home": "Bryne",
+    "away": "Bodo/Glimt",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "10",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "252",
+        "away": "405"
+      },
+      "Pas Başarı(%)": {
+        "home": "%69",
+        "away": "%80"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "4/17",
+        "away": "3/15"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "6"
+      },
+      "Ofsayt": {
+        "home": "4",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "5.04.2025 17:00",
+    "attendance": 6005,
+    "home": "Bodo/Glimt",
+    "away": "HamKam",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%77",
+        "away": "%23"
+      },
+      "Toplam Şut": {
+        "home": "23",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "682",
+        "away": "151"
+      },
+      "Pas Başarı(%)": {
+        "home": "%92",
+        "away": "%70"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "4/29",
+        "away": "2/11"
+      },
+      "Faul": {
+        "home": "7",
+        "away": "6"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "5.04.2025 19:00",
+    "attendance": 16325,
+    "home": "Rosenborg",
+    "away": "Fredrikstad",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%58",
+        "away": "%42"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "358",
+        "away": "214"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%67"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "4/20",
+        "away": "4/14"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 15:30",
+    "attendance": 16557,
+    "home": "Brann",
+    "away": "Tromsö",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%77",
+        "away": "%23"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "3"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "556",
+        "away": "91"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%45"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "4/18",
+        "away": "0/3"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 18:00",
+    "attendance": 6066,
+    "home": "Haugesund",
+    "away": "Stromsgodset",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "5"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%53",
+        "away": "%47"
+      },
+      "Toplam Şut": {
+        "home": "12",
+        "away": "22"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "9"
+      },
+      "Başarılı Paslar": {
+        "home": "351",
+        "away": "309"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "10"
+      },
+      "Orta": {
+        "home": "5/19",
+        "away": "7/26"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 18:00",
+    "attendance": 2917,
+    "home": "Kristiansund BK",
+    "away": "Bryne",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%57",
+        "away": "%43"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "426",
+        "away": "303"
+      },
+      "Pas Başarı(%)": {
+        "home": "%81",
+        "away": "%76"
+      },
+      "Korner": {
+        "home": "8",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "10/34",
+        "away": "6/16"
+      },
+      "Faul": {
+        "home": "7",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 18:00",
+    "attendance": 4640,
+    "home": "Sandefjord",
+    "away": "Molde",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "7",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "376",
+        "away": "349"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "9"
+      },
+      "Orta": {
+        "home": "5/17",
+        "away": "7/26"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "16"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 18:00",
+    "attendance": 7233,
+    "home": "Sarpsborg 08",
+    "away": "Valerenga",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "8"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "463",
+        "away": "311"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "10/34",
+        "away": "4/24"
+      },
+      "Faul": {
+        "home": "18",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "2",
+    "date": "6.04.2025 20:15",
+    "attendance": 12612,
+    "home": "Viking",
+    "away": "KFUM Oslo",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%59",
+        "away": "%41"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "6"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "394",
+        "away": "269"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "1"
+      },
+      "Orta": {
+        "home": "4/26",
+        "away": "1/4"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "4"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "20.04.2025 15:30",
+    "attendance": 3632,
+    "home": "Tromsö",
+    "away": "Kristiansund BK",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%60",
+        "away": "%40"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "430",
+        "away": "282"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "9",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "11/30",
+        "away": "1/10"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "8"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 15:30",
+    "attendance": 16556,
+    "home": "Valerenga",
+    "away": "Rosenborg",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "18",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "9",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "399",
+        "away": "404"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "12/28",
+        "away": "2/7"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "12"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 18:00",
+    "attendance": 8880,
+    "home": "Fredrikstad",
+    "away": "Sandefjord",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "3",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "18"
+      },
+      "İsabetli Şut": {
+        "home": "3",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "210",
+        "away": "418"
+      },
+      "Pas Başarı(%)": {
+        "home": "%70",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "1",
+        "away": "8"
+      },
+      "Orta": {
+        "home": "1/14",
+        "away": "7/33"
+      },
+      "Faul": {
+        "home": "14",
+        "away": "14"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 18:00",
+    "attendance": 3917,
+    "home": "HamKam",
+    "away": "Viking",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "5"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "4"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%37",
+        "away": "%63"
+      },
+      "Toplam Şut": {
+        "home": "7",
+        "away": "24"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "12"
+      },
+      "Başarılı Paslar": {
+        "home": "200",
+        "away": "436"
+      },
+      "Pas Başarı(%)": {
+        "home": "%66",
+        "away": "%84"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "12"
+      },
+      "Orta": {
+        "home": "8/17",
+        "away": "9/24"
+      },
+      "Faul": {
+        "home": "8",
+        "away": "10"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 18:00",
+    "attendance": 3643,
+    "home": "Bryne",
+    "away": "Haugesund",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "1"
+      },
+      "halfTime": {
+        "home": "2",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "235",
+        "away": "353"
+      },
+      "Pas Başarı(%)": {
+        "home": "%70",
+        "away": "%78"
+      },
+      "Korner": {
+        "home": "0",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "0/11",
+        "away": "3/27"
+      },
+      "Faul": {
+        "home": "15",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 18:00",
+    "attendance": 6507,
+    "home": "Stromsgodset",
+    "away": "Brann",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "27"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "11"
+      },
+      "Başarılı Paslar": {
+        "home": "260",
+        "away": "394"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%86"
+      },
+      "Korner": {
+        "home": "10",
+        "away": "9"
+      },
+      "Orta": {
+        "home": "14/31",
+        "away": "4/22"
+      },
+      "Faul": {
+        "home": "7",
+        "away": "3"
+      },
+      "Ofsayt": {
+        "home": "6",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 18:00",
+    "attendance": 1898,
+    "home": "KFUM Oslo",
+    "away": "Sarpsborg 08",
+    "score": {
+      "fullTime": {
+        "home": "1",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%36",
+        "away": "%64"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "286",
+        "away": "554"
+      },
+      "Pas Başarı(%)": {
+        "home": "%76",
+        "away": "%85"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "0/6",
+        "away": "6/15"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "3"
+      }
+    }
+  },
+  {
+    "week": "3",
+    "date": "21.04.2025 20:15",
+    "attendance": 6940,
+    "home": "Molde",
+    "away": "Bodo/Glimt",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%49",
+        "away": "%51"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "12"
+      },
+      "İsabetli Şut": {
+        "home": "4",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "420",
+        "away": "451"
+      },
+      "Pas Başarı(%)": {
+        "home": "%86",
+        "away": "%87"
+      },
+      "Korner": {
+        "home": "4",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "5/18",
+        "away": "8/12"
+      },
+      "Faul": {
+        "home": "11",
+        "away": "7"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 20:00",
+    "home": "HamKam",
+    "away": "KFUM Oslo"
+  },
+  {
+    "week": "5",
+    "date": "3.05.2025 19:00",
+    "home": "Valerenga",
+    "away": "Brann"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Molde",
+    "away": "Haugesund"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Stromsgodset",
+    "away": "Kristiansund BK"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Tromsö",
+    "away": "Sandefjord"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Viking",
+    "away": "Sarpsborg 08"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 20:15",
+    "home": "Rosenborg",
+    "away": "Bryne"
+  },
+  {
+    "week": "5",
+    "date": "16.07.2025 20:00",
+    "home": "Fredrikstad",
+    "away": "Bodo/Glimt"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 15:30",
+    "home": "Brann",
+    "away": "Rosenborg"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Bryne",
+    "away": "Molde"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "KFUM Oslo",
+    "away": "Tromsö"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Kristiansund BK",
+    "away": "Fredrikstad"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Sandefjord",
+    "away": "Valerenga"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Sarpsborg 08",
+    "away": "HamKam"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 20:15",
+    "home": "Haugesund",
+    "away": "Viking"
+  },
+  {
+    "week": "6",
+    "date": "30.07.2025 20:00",
+    "home": "Bodo/Glimt",
+    "away": "Stromsgodset"
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 15:30",
+    "attendance": -1,
+    "home": "Rosenborg",
+    "away": "Molde",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%55",
+        "away": "%45"
+      },
+      "Toplam Şut": {
+        "home": "5",
+        "away": "1"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "0"
+      },
+      "Başarılı Paslar": {
+        "home": "293",
+        "away": "226"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "3",
+        "away": "4"
+      },
+      "Orta": {
+        "home": "2/8",
+        "away": "5/12"
+      },
+      "Faul": {
+        "home": "6",
+        "away": "6"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 18:00",
+    "attendance": -1,
+    "home": "Kristiansund BK",
+    "away": "Valerenga",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%47",
+        "away": "%53"
+      },
+      "Toplam Şut": {
+        "home": "13",
+        "away": "9"
+      },
+      "İsabetli Şut": {
+        "home": "2",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "321",
+        "away": "380"
+      },
+      "Pas Başarı(%)": {
+        "home": "%80",
+        "away": "%82"
+      },
+      "Korner": {
+        "home": "6",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "8/29",
+        "away": "9/20"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "17"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 18:00",
+    "attendance": -1,
+    "home": "Sandefjord",
+    "away": "HamKam",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "1",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%64",
+        "away": "%36"
+      },
+      "Toplam Şut": {
+        "home": "17",
+        "away": "13"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "3"
+      },
+      "Başarılı Paslar": {
+        "home": "424",
+        "away": "195"
+      },
+      "Pas Başarı(%)": {
+        "home": "%84",
+        "away": "%71"
+      },
+      "Korner": {
+        "home": "5",
+        "away": "5"
+      },
+      "Orta": {
+        "home": "10/20",
+        "away": "6/24"
+      },
+      "Faul": {
+        "home": "13",
+        "away": "15"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 18:00",
+    "attendance": -1,
+    "home": "Brann",
+    "away": "Bryne",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "2"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "2"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%77",
+        "away": "%23"
+      },
+      "Toplam Şut": {
+        "home": "14",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "477",
+        "away": "95"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%53"
+      },
+      "Korner": {
+        "home": "10",
+        "away": "0"
+      },
+      "Orta": {
+        "home": "4/25",
+        "away": "1/4"
+      },
+      "Faul": {
+        "home": "16",
+        "away": "13"
+      },
+      "Ofsayt": {
+        "home": "3",
+        "away": "0"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 18:00",
+    "attendance": -1,
+    "home": "Haugesund",
+    "away": "Fredrikstad",
+    "score": {
+      "fullTime": {
+        "home": "0",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%42",
+        "away": "%58"
+      },
+      "Toplam Şut": {
+        "home": "9",
+        "away": "14"
+      },
+      "İsabetli Şut": {
+        "home": "1",
+        "away": "4"
+      },
+      "Başarılı Paslar": {
+        "home": "244",
+        "away": "374"
+      },
+      "Pas Başarı(%)": {
+        "home": "%70",
+        "away": "%79"
+      },
+      "Korner": {
+        "home": "2",
+        "away": "10"
+      },
+      "Orta": {
+        "home": "7/12",
+        "away": "5/28"
+      },
+      "Faul": {
+        "home": "9",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "1",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 18:00",
+    "attendance": -1,
+    "home": "Bodo/Glimt",
+    "away": "KFUM Oslo",
+    "score": {
+      "fullTime": {
+        "home": "3",
+        "away": "0"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "0"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%72",
+        "away": "%28"
+      },
+      "Toplam Şut": {
+        "home": "11",
+        "away": "5"
+      },
+      "İsabetli Şut": {
+        "home": "5",
+        "away": "2"
+      },
+      "Başarılı Paslar": {
+        "home": "642",
+        "away": "213"
+      },
+      "Pas Başarı(%)": {
+        "home": "%91",
+        "away": "%77"
+      },
+      "Korner": {
+        "home": "11",
+        "away": "6"
+      },
+      "Orta": {
+        "home": "8/36",
+        "away": "3/10"
+      },
+      "Faul": {
+        "home": "5",
+        "away": "9"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 18:00",
+    "attendance": -1,
+    "home": "Sarpsborg 08",
+    "away": "Stromsgodset",
+    "score": {
+      "fullTime": {
+        "home": "2",
+        "away": "3"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%51",
+        "away": "%49"
+      },
+      "Toplam Şut": {
+        "home": "19",
+        "away": "11"
+      },
+      "İsabetli Şut": {
+        "home": "6",
+        "away": "5"
+      },
+      "Başarılı Paslar": {
+        "home": "368",
+        "away": "353"
+      },
+      "Pas Başarı(%)": {
+        "home": "%82",
+        "away": "%81"
+      },
+      "Korner": {
+        "home": "7",
+        "away": "3"
+      },
+      "Orta": {
+        "home": "7/26",
+        "away": "2/14"
+      },
+      "Faul": {
+        "home": "10",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "0",
+        "away": "2"
+      }
+    }
+  },
+  {
+    "week": "4",
+    "date": "27.04.2025 20:15",
+    "attendance": -1,
+    "home": "Viking",
+    "away": "Tromsö",
+    "score": {
+      "fullTime": {
+        "home": "4",
+        "away": "4"
+      },
+      "halfTime": {
+        "home": "0",
+        "away": "1"
+      }
+    },
+    "stats": {
+      "Topla Oynama": {
+        "home": "%61",
+        "away": "%39"
+      },
+      "Toplam Şut": {
+        "home": "22",
+        "away": "10"
+      },
+      "İsabetli Şut": {
+        "home": "8",
+        "away": "6"
+      },
+      "Başarılı Paslar": {
+        "home": "462",
+        "away": "278"
+      },
+      "Pas Başarı(%)": {
+        "home": "%83",
+        "away": "%75"
+      },
+      "Korner": {
+        "home": "11",
+        "away": "2"
+      },
+      "Orta": {
+        "home": "14/41",
+        "away": "3/10"
+      },
+      "Faul": {
+        "home": "4",
+        "away": "11"
+      },
+      "Ofsayt": {
+        "home": "2",
+        "away": "1"
+      }
+    }
+  },
+  {
+    "week": "5",
+    "date": "2.05.2025 20:00",
+    "home": "HamKam",
+    "away": "KFUM Oslo"
+  },
+  {
+    "week": "5",
+    "date": "3.05.2025 19:00",
+    "home": "Valerenga",
+    "away": "Brann"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Molde",
+    "away": "Haugesund"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Stromsgodset",
+    "away": "Kristiansund BK"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Tromsö",
+    "away": "Sandefjord"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 18:00",
+    "home": "Viking",
+    "away": "Sarpsborg 08"
+  },
+  {
+    "week": "5",
+    "date": "4.05.2025 20:15",
+    "home": "Rosenborg",
+    "away": "Bryne"
+  },
+  {
+    "week": "5",
+    "date": "16.07.2025 20:00",
+    "home": "Fredrikstad",
+    "away": "Bodo/Glimt"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 15:30",
+    "home": "Brann",
+    "away": "Rosenborg"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Bryne",
+    "away": "Molde"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "KFUM Oslo",
+    "away": "Tromsö"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Kristiansund BK",
+    "away": "Fredrikstad"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Sandefjord",
+    "away": "Valerenga"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 18:00",
+    "home": "Sarpsborg 08",
+    "away": "HamKam"
+  },
+  {
+    "week": "6",
+    "date": "11.05.2025 20:15",
+    "home": "Haugesund",
+    "away": "Viking"
+  },
+  {
+    "week": "6",
+    "date": "30.07.2025 20:00",
+    "home": "Bodo/Glimt",
+    "away": "Stromsgodset"
+  }
+]
