@@ -614,8 +614,11 @@
             
             resultsTitle.textContent = `📊 ${predictions.length} Oynanmamış Maç Tahmini`;
             
+            // Güven yüzdesine göre büyükten küçüğe sırala
+            const sortedPredictions = predictions.sort((a, b) => b.confidence - a.confidence);
+            
             let html = '';
-            predictions.slice(0, 20).forEach(prediction => {  // İlk 20 tahmini göster
+            sortedPredictions.slice(0, 20).forEach(prediction => {  // En güvenli 20 tahmini göster
                 html += createPredictionCard(prediction);
             });
             

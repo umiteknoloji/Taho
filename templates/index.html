@@ -451,12 +451,9 @@
                     const sortedMatches = data.unplayed_predictions.map((match) => {
                         const name = match[0];
                         const predData = match[1];
-                        const homeWinProbNum = typeof predData.home_win_prob === 'number' ? predData.home_win_prob : 0;
-                        const drawProbNum = typeof predData.draw_prob === 'number' ? predData.draw_prob : 0;
-                        const awayWinProbNum = typeof predData.away_win_prob === 'number' ? predData.away_win_prob : 0;
-                        const maxProb = Math.max(homeWinProbNum, drawProbNum, awayWinProbNum);
-                        return { match, name, predData, maxProb };
-                    }).sort((a, b) => b.maxProb - a.maxProb);
+                        const confidence = typeof predData.confidence === 'number' ? predData.confidence : 0;
+                        return { match, name, predData, confidence };
+                    }).sort((a, b) => b.confidence - a.confidence);
                     
                     matchesDiv.innerHTML = `
                         <div class="match-grid">
