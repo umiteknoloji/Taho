@@ -4,6 +4,7 @@
 """
 M3 Neural Engine Futbol GP Classification Sistemi
 Gaussian Process ile futbol maç sonucu (1X2) tahminleri
+ENHANCED VERSION - Gelişmiş GP özellikleri ile
 """
 
 import os
@@ -14,10 +15,13 @@ warnings.filterwarnings("ignore")
 import numpy as np
 import pandas as pd
 from sklearn.gaussian_process import GaussianProcessClassifier
-from sklearn.gaussian_process.kernels import RBF, Matern, WhiteKernel
+from sklearn.gaussian_process.kernels import (
+    RBF, Matern, WhiteKernel, RationalQuadratic, 
+    ExpSineSquared, DotProduct, ConstantKernel
+)
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
+from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, log_loss
 import json
 import time
 import psutil
@@ -26,15 +30,21 @@ from datetime import datetime
 from core.data_normalizer import DataNormalizer
 
 class FootballGPClassifier:
-    """Futbol verileri için GP Classification sistemi"""
+    """Futbol verileri için GP Classification sistemi - ENHANCED VERSION"""
     
-    def __init__(self):
+    def __init__(self, use_advanced_features=True):
         self.normalizer = DataNormalizer()
         self.scaler = StandardScaler()
         self.label_encoder = LabelEncoder()
         self.gp_model = None
         self.feature_names = []
         self.kernel_performance = {}
+        self.use_advanced_features = use_advanced_features
+        
+        # Enhanced features
+        self.uncertainty_metrics = {}
+        self.calibration_data = {}
+        self.feature_importance = {}
         
         # Neural Engine monitoring
         self.neural_engine_usage = {
@@ -259,6 +269,55 @@ class FootballGPClassifier:
             'neural_optimized': Matern(nu=2.5, length_scale=0.5) + WhiteKernel(1e-2)
         }
     
+    def get_advanced_kernels(self):
+        """Gelişmiş kernel kombinasyonları"""
+        if not self.use_advanced_features:
+            return self.get_optimal_kernels()
+        
+        kernels = {}
+        
+        # 1. Temel kernels - Farklı length scale'ler
+        kernels['rbf_short'] = RBF(length_scale=0.1)
+        kernels['rbf_medium'] = RBF(length_scale=1.0) 
+        kernels['rbf_long'] = RBF(length_scale=10.0)
+        
+        # 2. Matern kernels - Farklı smoothness
+        kernels['matern_12'] = Matern(nu=0.5, length_scale=1.0)
+        kernels['matern_32'] = Matern(nu=1.5, length_scale=1.0)
+        kernels['matern_52'] = Matern(nu=2.5, length_scale=1.0)
+        
+        # 3. Rational Quadratic (infinite mixture of RBF)  
+        kernels['rational_quadratic'] = RationalQuadratic(length_scale=1.0, alpha=1.0)
+        
+        # 4. Composite kernels with constant scaling
+        c = ConstantKernel(1.0)
+        kernels['scaled_rbf'] = c * RBF(1.0)
+        kernels['scaled_matern'] = c * Matern(nu=2.5, length_scale=1.0)
+        
+        # 5. Additive combinations
+        kernels['rbf_plus_white'] = RBF(1.0) + WhiteKernel(1e-3)
+        kernels['matern_plus_white'] = Matern(nu=2.5, length_scale=1.0) + WhiteKernel(1e-3)
+        
+        # 6. Multiplicative combinations
+        kernels['rbf_times_rational'] = RBF(1.0) * RationalQuadratic(1.0, 1.0)
+        
+        # 7. Complex combinations  
+        kernels['complex_football'] = (ConstantKernel(1.0) * RBF(1.0) + 
+                                      WhiteKernel(1e-3) + 
+                                      Matern(nu=1.5, length_scale=1.0))
+        
+        # 8. Football-specific optimized
+        kernels['football_enhanced'] = (ConstantKernel(1.0) * 
+                                       Matern(nu=2.5, length_scale=1.0) + 
+                                       RBF(length_scale=0.5) + 
+                                       WhiteKernel(1e-2))
+        
+        # Temel kernels'ı da ekle
+        basic_kernels = self.get_optimal_kernels()
+        kernels.update(basic_kernels)
+        
+        return kernels
+    
     def train_gp_models(self, features, labels, test_size=0.2):
         """Farklı kernel'larla GP modelleri eğit"""
         print("\n🧠 GP Classification modelleri eğitiliyor...")
@@ -276,7 +335,7 @@ class FootballGPClassifier:
         y_train_encoded = self.label_encoder.fit_transform(y_train)
         y_test_encoded = self.label_encoder.transform(y_test)
         
-        kernels = self.get_optimal_kernels()
+        kernels = self.get_advanced_kernels()
         results = {}
         
         for kernel_name, kernel in kernels.items():
@@ -472,6 +531,148 @@ class FootballGPClassifier:
             }
         
         return summary
+    
+    def compute_uncertainty_metrics(self, X_test, y_test):
+        """Uncertainty quantification metrikleri"""
+        if not self.use_advanced_features or self.gp_model is None:
+            return {}
+        
+        try:
+            # Tahmin olasılıkları
+            y_pred_proba = self.gp_model.predict_proba(X_test)
+            
+            # Entropy (uncertainty measure)
+            entropy = -np.sum(y_pred_proba * np.log(y_pred_proba + 1e-15), axis=1)
+            
+            # Maximum probability (confidence)
+            max_prob = np.max(y_pred_proba, axis=1)
+            
+            # Predictive variance
+            predictive_var = np.var(y_pred_proba, axis=1)
+            
+            # Log loss (calibration measure)
+            log_loss_val = log_loss(y_test, y_pred_proba)
+            
+            self.uncertainty_metrics = {
+                'mean_entropy': np.mean(entropy),
+                'std_entropy': np.std(entropy),
+                'mean_confidence': np.mean(max_prob),
+                'std_confidence': np.std(max_prob),
+                'mean_predictive_var': np.mean(predictive_var),
+                'log_loss': log_loss_val,
+                'uncertainty_scores': entropy,
+                'confidence_scores': max_prob
+            }
+            
+            return self.uncertainty_metrics
+            
+        except Exception as e:
+            print(f"⚠️ Uncertainty hesaplama hatası: {e}")
+            return {}
+    
+    def perform_hyperparameter_optimization(self, X_train, y_train, cv=3):
+        """Hyperparameter optimization"""
+        if not self.use_advanced_features:
+            return None
+        
+        try:
+            print("🔧 Hyperparameter optimization başlıyor...")
+            
+            # Parameter grid
+            param_grid = {
+                'kernel': [
+                    RBF(length_scale=ls) for ls in [0.1, 0.5, 1.0, 2.0]
+                ] + [
+                    Matern(nu=nu, length_scale=ls) 
+                    for nu in [1.5, 2.5] 
+                    for ls in [0.5, 1.0]
+                ] + [
+                    RBF(ls) + WhiteKernel(noise) 
+                    for ls in [0.5, 1.0] 
+                    for noise in [1e-3, 1e-2]
+                ],
+                'n_restarts_optimizer': [1, 3],
+                'max_iter_predict': [50, 100]
+            }
+            
+            # Grid search
+            base_gp = GaussianProcessClassifier(random_state=42)
+            search = GridSearchCV(
+                base_gp, 
+                param_grid, 
+                cv=cv, 
+                scoring='accuracy',
+                n_jobs=1,  # Single thread for stability
+                verbose=0
+            )
+            
+            search.fit(X_train, y_train)
+            
+            print(f"✅ En iyi score: {search.best_score_:.3f}")
+            print(f"📋 En iyi parametreler: {search.best_params_}")
+            
+            return {
+                'best_model': search.best_estimator_,
+                'best_params': search.best_params_,
+                'best_score': search.best_score_
+            }
+            
+        except Exception as e:
+            print(f"⚠️ Hyperparameter optimization hatası: {e}")
+            return None
+    
+    def calibration_analysis(self, X_test, y_test):
+        """Model calibration analizi"""
+        if not self.use_advanced_features or self.gp_model is None:
+            return {}
+        
+        try:
+            y_pred_proba = self.gp_model.predict_proba(X_test)
+            y_pred = self.gp_model.predict(X_test)
+            
+            # Confidence bins
+            n_bins = 10
+            bin_boundaries = np.linspace(0, 1, n_bins + 1)
+            bin_lowers = bin_boundaries[:-1]
+            bin_uppers = bin_boundaries[1:]
+            
+            confidences = np.max(y_pred_proba, axis=1)
+            accuracies = (y_pred == y_test).astype(float)
+            
+            calibration_data = []
+            
+            for bin_lower, bin_upper in zip(bin_lowers, bin_uppers):
+                in_bin = (confidences > bin_lower) & (confidences <= bin_upper)
+                prop_in_bin = in_bin.mean()
+                
+                if prop_in_bin > 0:
+                    accuracy_in_bin = accuracies[in_bin].mean()
+                    avg_confidence_in_bin = confidences[in_bin].mean()
+                    
+                    calibration_data.append({
+                        'bin_lower': bin_lower,
+                        'bin_upper': bin_upper,
+                        'accuracy': accuracy_in_bin,
+                        'confidence': avg_confidence_in_bin,
+                        'proportion': prop_in_bin
+                    })
+            
+            # Expected Calibration Error (ECE)
+            ece = sum([
+                abs(data['accuracy'] - data['confidence']) * data['proportion']
+                for data in calibration_data
+            ])
+            
+            self.calibration_data = {
+                'calibration_data': calibration_data,
+                'expected_calibration_error': ece
+            }
+            
+            return self.calibration_data
+            
+        except Exception as e:
+            print(f"⚠️ Calibration analizi hatası: {e}")
+            return {}
 
 def main():
     """GP Classification demo"""
