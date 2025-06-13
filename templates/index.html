@@ -466,10 +466,10 @@
                                 // Yeni 1X2 format için güvenli erişim
                                 const result = predData.predicted_result || 'N/A';
                                 const resultMeaning = predData.result_meaning || 'Bilinmeyen';
-                                const homeWinProb = typeof predData.home_win_prob === 'number' ? predData.home_win_prob.toFixed(0) + '%' : (predData.home_win_prob || '0%');
-                                const drawProb = typeof predData.draw_prob === 'number' ? predData.draw_prob.toFixed(0) + '%' : (predData.draw_prob || '0%');
-                                const awayWinProb = typeof predData.away_win_prob === 'number' ? predData.away_win_prob.toFixed(0) + '%' : (predData.away_win_prob || '0%');
-                                const confidence = typeof predData.confidence === 'number' ? predData.confidence.toFixed(0) + '%' : (predData.confidence || '0%');
+                                const homeWinProb = typeof predData.home_win_prob === 'number' ? (predData.home_win_prob * 100).toFixed(0) + '%' : (predData.home_win_prob || '0%');
+                                const drawProb = typeof predData.draw_prob === 'number' ? (predData.draw_prob * 100).toFixed(0) + '%' : (predData.draw_prob || '0%');
+                                const awayWinProb = typeof predData.away_win_prob === 'number' ? (predData.away_win_prob * 100).toFixed(0) + '%' : (predData.away_win_prob || '0%');
+                                const confidence = typeof predData.confidence === 'number' ? (predData.confidence * 100).toFixed(0) + '%' : (predData.confidence || '0%');
                                 
                                 // En yüksek olasılığı bul
                                 const homeWinProbNum = typeof predData.home_win_prob === 'number' ? predData.home_win_prob : 0;
@@ -614,10 +614,10 @@
                         // Yeni 1X2 format
                         predResult = pred.predicted_result;
                         const predMeaning = pred.result_meaning || 'Bilinmeyen';
-                        const confidence = typeof pred.confidence === 'number' ? pred.confidence.toFixed(0) + '%' : (pred.confidence || '0%');
-                        const homeWinProb = typeof pred.home_win_prob === 'number' ? pred.home_win_prob.toFixed(0) + '%' : (pred.home_win_prob || '0%');
-                        const drawProb = typeof pred.draw_prob === 'number' ? pred.draw_prob.toFixed(0) + '%' : (pred.draw_prob || '0%');
-                        const awayWinProb = typeof pred.away_win_prob === 'number' ? pred.away_win_prob.toFixed(0) + '%' : (pred.away_win_prob || '0%');
+                        const confidence = typeof pred.confidence === 'number' ? (pred.confidence * 100).toFixed(0) + '%' : (pred.confidence || '0%');
+                        const homeWinProb = typeof pred.home_win_prob === 'number' ? (pred.home_win_prob * 100).toFixed(0) + '%' : (pred.home_win_prob || '0%');
+                        const drawProb = typeof pred.draw_prob === 'number' ? (pred.draw_prob * 100).toFixed(0) + '%' : (pred.draw_prob || '0%');
+                        const awayWinProb = typeof pred.away_win_prob === 'number' ? (pred.away_win_prob * 100).toFixed(0) + '%' : (pred.away_win_prob || '0%');
                         
                         // En yüksek olasılığı bul
                         const homeWinProbNum = typeof pred.home_win_prob === 'number' ? pred.home_win_prob : 0;
@@ -738,10 +738,10 @@
                 
                 const result = predData.predicted_result || 'N/A';
                 const resultMeaning = predData.result_meaning || 'Bilinmeyen';
-                const homeWinProb = typeof predData.home_win_prob === 'number' ? predData.home_win_prob.toFixed(0) : '0';
-                const drawProb = typeof predData.draw_prob === 'number' ? predData.draw_prob.toFixed(0) : '0';
-                const awayWinProb = typeof predData.away_win_prob === 'number' ? predData.away_win_prob.toFixed(0) : '0';
-                const confidence = typeof predData.confidence === 'number' ? predData.confidence.toFixed(0) : '0';
+                const homeWinProb = typeof predData.home_win_prob === 'number' ? (predData.home_win_prob * 100).toFixed(0) : '0';
+                const drawProb = typeof predData.draw_prob === 'number' ? (predData.draw_prob * 100).toFixed(0) : '0';
+                const awayWinProb = typeof predData.away_win_prob === 'number' ? (predData.away_win_prob * 100).toFixed(0) : '0';
+                const confidence = typeof predData.confidence === 'number' ? (predData.confidence * 100).toFixed(0) : '0';
                 
                 const matchDate = predData.date || 'Tarih belirtilmemiş';
                 const timeUntilMatch = 'Oynanmamış';

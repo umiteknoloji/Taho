@@ -416,10 +416,10 @@ class FootballGPClassifier:
             return {
                 'predicted_result': result,
                 'result_meaning': {'1': 'Ev Sahibi Galibiyeti', 'X': 'Beraberlik', '2': 'Deplasman Galibiyeti'}[result],
-                'home_win_prob': prob_dict.get('1', 0) * 100,
-                'draw_prob': prob_dict.get('X', 0) * 100,
-                'away_win_prob': prob_dict.get('2', 0) * 100,
-                'confidence': max(probabilities) * 100
+                'home_win_prob': prob_dict.get('1', 0),
+                'draw_prob': prob_dict.get('X', 0),
+                'away_win_prob': prob_dict.get('2', 0),
+                'confidence': max(probabilities)
             }
             
         except Exception as e:

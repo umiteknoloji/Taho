@@ -560,10 +560,10 @@ class ParametricBacktestSystem:
             return {
                 'predicted_result': predicted_result_1x2,
                 'result_meaning': result_meaning,
-                'home_win_prob': float(home_win_prob * 100),  # 0-100 arasında yüzde
-                'draw_prob': float(draw_prob * 100),          # 0-100 arasında yüzde
-                'away_win_prob': float(away_win_prob * 100),  # 0-100 arasında yüzde
-                'confidence': float(confidence * 100)         # 0-100 arasında yüzde
+                'home_win_prob': float(home_win_prob),  # 0-1 arasında olasılık
+                'draw_prob': float(draw_prob),          # 0-1 arasında olasılık
+                'away_win_prob': float(away_win_prob),  # 0-1 arasında olasılık
+                'confidence': float(confidence)         # 0-1 arasında olasılık
             }
             
         except Exception as e:
