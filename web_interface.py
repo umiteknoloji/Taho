@@ -415,6 +415,6 @@ if __name__ == '__main__':
         os.makedirs(template_dir)
     
     print("🌐 Web arayüzü başlatılıyor...")
-    print("📱 Tarayıcıda açın: http://localhost:5004")
+    print("📱 Tarayıcıda açın: http://localhost:5005")
     
-    app.run(debug=True, host='0.0.0.0', port=5004)
+    app.run(debug=True, host='0.0.0.0', port=5005)
