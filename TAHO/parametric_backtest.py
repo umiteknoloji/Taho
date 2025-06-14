@@ -40,7 +40,7 @@ except ImportError as e:
     print("🔄 Basit modeller kullanılacak...")
 
 class ParametricBacktestSystem:
-    """Parametrik Backtest Sistemi - Herhangi bir hafta için test"""
+    """Parametrik Backtest Sistemi - ImprovedGeneralPredictor kullanır"""
     
     def __init__(self, use_enhanced_features: bool = True, use_ensemble: bool = True, use_gp: bool = True, random_seed: int = 42):
         self.use_enhanced_features = use_enhanced_features
@@ -50,41 +50,22 @@ class ParametricBacktestSystem:
         np.random.seed(self.random_seed)
         random.seed(self.random_seed)
         
-        # 1X2 Maç sonucu sınıflandırıcısı 
-        self.result_classifier = None
-        self.gp_classifier = None  # GP Classifier
-        self.scaler = StandardScaler()
-        self.is_trained = False
-        
-        # FootballGPClassifier
-        if self.use_gp:
-            try:
-                self.football_gp = FootballGPClassifier()
-                print("✅ GP Classifier yüklendi")
-            except:
-                print("⚠️ GP Classifier yüklenemedi, standart modeller kullanılacak")
-                self.use_gp = False
-        
-        # ELO Rating sistemi
-        try:
-            from elo_rating import ELORatingSystem
-            self.elo_system = ELORatingSystem()
-            self.use_elo = True
-        except:
-            print("⚠️ ELO rating sistemi yüklenemedi")
-            self.elo_system = None
-            self.use_elo = False
-        
-        # Modül yükleme
-        # İleri seviye modül zorunlu, fallback yok
-        # self.feature_extractor = EnhancedFeatureExtractor()  # Kaldırıldı
-        # self.evaluator = AdvancedEvaluator()  # Kaldırıldı
+        # PerfectPredictor'ı kullan
+        from perfect_prediction_system import PerfectPredictor
+        self.predictor = PerfectPredictor()
+        print("✅ PerfectPredictor yüklendi")
         
         self.results_history = {}
     
     def load_data(self, data_path: str) -> pd.DataFrame:
         """Veriyi yükle ve DataFrame'e çevir"""
         print(f"📊 Veri yükleniyor: {data_path}")
+        
+        # Dosya yolunu kontrol et ve düzelt
+        if not os.path.isabs(data_path):
+            # Göreli yolsa, script dizinine göre ayarla
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            data_path = os.path.join(script_dir, data_path)
         
         if not os.path.exists(data_path):
             raise FileNotFoundError(f"Veri dosyası bulunamadı: {data_path}")
@@ -578,59 +559,105 @@ class ParametricBacktestSystem:
             }
     
     def run_backtest(self, data_path: str, test_week: int, 
-                    train_weeks: Optional[int] = None) -> Dict[str, Any]:
-        """Belirtilen hafta için backtest çalıştır"""
-        print(f"🎯 {test_week}. HAFTA BACKTESTİ")
-        print("=" * 50)
+                     train_weeks: Optional[int] = None) -> Dict[str, Any]:
+        """Belirtilen hafta için PerfectPredictor ile backtest çalıştır"""
+        print(f"🎯 {test_week}. HAFTA BACKTESTİ - PERFECT PREDICTOR")
+        print("=" * 60)
         
-        # Veriyi yükle
-        df = self.load_data(data_path)
+        # Test hafta verilerini al
+        with open(data_path, 'r', encoding='utf-8') as f:
+            all_data = json.load(f)
         
-        # Hafta kontrolü
-        available_weeks = self.get_available_weeks(df)
-        if test_week not in available_weeks:
-            raise ValueError(f"Hafta {test_week} bulunamadı. Mevcut haftalar: {available_weeks}")
+        # Test haftası maçlarını filtrele
+        test_matches = [match for match in all_data if match.get('week') == test_week]
         
-        # Eğitim ve test setlerini ayır
-        if train_weeks is None:
-            train_weeks = test_week - 1
+        if not test_matches:
+            raise ValueError(f"Hafta {test_week} için maç bulunamadı!")
         
-        train_data = df[df['week'] <= train_weeks]
-        test_data = df[df['week'] == test_week]
+        print(f"📊 Test edilen hafta: {test_week}")
+        print(f"🎯 Test maç sayısı: {len(test_matches)}")
+        print()
         
-        print(f"📈 Eğitim verileri: {len(train_data)} maç ({train_weeks} hafta)")
-        print(f"🎯 Test verileri: {len(test_data)} maç ({test_week}. hafta)")
+        # Tahminleri yap
+        predictions = self.predictor.predict_week(test_week)
         
-        if len(test_data) == 0:
-            raise ValueError(f"{test_week}. hafta için test verisi bulunamadı!")
+        # Gerçek sonuçları çıkar
+        actual_results = []
+        for match in test_matches:
+            score = match.get('score', {})
+            if 'fullTime' in score:
+                h_score = int(score['fullTime']['home'])
+                a_score = int(score['fullTime']['away'])
+                
+                if h_score > a_score:
+                    result = '1'  # Ev sahibi kazandı
+                elif a_score > h_score:
+                    result = '2'  # Deplasman kazandı
+                else:
+                    result = 'X'  # Berabere
+                    
+                actual_results.append(result)
         
-        # Oynanmış ve oynanmamış maçları ayır
-        played_test_data = test_data[(test_data['home_score'] > 0) | (test_data['away_score'] > 0)]
-        unplayed_test_data = test_data[(test_data['home_score'] == 0) & (test_data['away_score'] == 0)]
+        # Karşılaştırma ve doğruluk hesaplama
+        correct_predictions = 0
+        total_predictions = min(len(predictions), len(actual_results))
         
-        # ELO rating sistemini eğit (tüm geçmiş maçlarla)
-        if self.use_elo and self.elo_system:
-            print("🔢 ELO rating sistemi eğitiliyor...")
-            # Tarih sırasına göre sırala (determinizm için)
-            train_data_sorted = train_data.sort_values(['week', 'date', 'home_team', 'away_team']).reset_index(drop=True)
-            train_matches = []
-            for _, match in train_data_sorted.iterrows():
-                train_matches.append({
-                    'home': match['home_team'],
-                    'away': match['away_team'],
-                    'date': match['date'],
-                    'week': match['week'],
-                    'score': {
-                        'fullTime': {
-                            'home': match['home_score'],
-                            'away': match['away_score']
-                        }
-                    }
-                })
-            if train_matches:
-                self.elo_system.train_from_matches(train_matches)
+        print("📊 TAHMIN SONUÇLARI:")
+        print("-" * 60)
         
-        # Sınıflandırma modellerini eğit
+        for i in range(total_predictions):
+            pred = predictions[i]
+            actual = actual_results[i]
+            is_correct = pred['prediction'] == actual
+            
+            if is_correct:
+                correct_predictions += 1
+                status = "✅"
+            else:
+                status = "❌"
+            
+            print(f"  {pred['home_team']} vs {pred['away_team']}: {pred['prediction']} ({pred['confidence']:.1f}%) | Gerçek: {actual} {status}")
+        
+        accuracy = (correct_predictions / total_predictions) * 100 if total_predictions > 0 else 0
+        
+        print()
+        print("🏆 SONUÇLAR")
+        print("=" * 40)
+        print(f"Doğru tahmin: {correct_predictions}/{total_predictions}")
+        print(f"Doğruluk oranı: {accuracy:.1f}%")
+        
+        # Sonuç değerlendirmesi
+        if accuracy >= 70:
+            print("🎉 MÜKEMMEL! %70+ doğruluk!")
+        elif accuracy >= 60:
+            print("👍 ÇOK İYİ! %60+ doğruluk!")
+        elif accuracy >= 50:
+            print("📈 İYİ! %50+ doğruluk!")
+        elif accuracy >= 40:
+            print("📊 MAKUL! %40+ doğruluk!")
+        else:
+            print("🔧 Geliştirilmesi gereken performans")
+        
+        # Sonuç objesi
+        results = {
+            'test_week': test_week,
+            'total_matches': total_predictions,
+            'correct_predictions': correct_predictions,
+            'accuracy': accuracy,
+            'predictions': [
+                {
+                    'home_team': pred['home_team'],
+                    'away_team': pred['away_team'],
+                    'prediction': pred['prediction'],
+                    'confidence': pred['confidence'],
+                    'actual_result': actual_results[i] if i < len(actual_results) else None,
+                    'correct': pred['prediction'] == actual_results[i] if i < len(actual_results) else False
+                }
+                for i, pred in enumerate(predictions[:total_predictions])
+            ]
+        }
+        
+        return results
         if len(train_data) >= 10:  # Minimum eğitim verisi kontrolü
             self.train_classification_models(df, train_weeks)
         else:

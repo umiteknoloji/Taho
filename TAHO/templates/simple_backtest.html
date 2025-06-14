@@ -390,7 +390,7 @@
                     
                     // Check for perfect results
                     if (data.results.accuracy === 100) {
-                        displayPerfectResults(data.results);
+                        displayPerfectResults(data.results, data);
                         showElement('perfectResults');
                         showAlert('success', '🎯 MÜKEMMEL! %100 doğruluk elde edildi!');
                     } else if (data.results.accuracy >= 90) {
@@ -495,17 +495,17 @@
         }
 
         // Display perfect results
-        function displayPerfectResults(results) {
+        function displayPerfectResults(results, data) {
             document.getElementById('perfectResultContent').innerHTML = `
                 <div class="alert alert-success">
                     <h5><i class="fas fa-trophy"></i> MÜKEMMEL SONUÇ ELDE EDİLDİ!</h5>
                     <p><strong>Parametreler:</strong></p>
                     <ul>
                         <li><strong>Lig:</strong> ${document.getElementById('dataFile').options[document.getElementById('dataFile').selectedIndex].text}</li>
-                        <li><strong>Model:</strong> No H2H GP (Pure Form)</li>
+                        <li><strong>Model:</strong> ${data.parameters.model}</li>
                         <li><strong>Test Haftası:</strong> ${document.getElementById('testWeek').value}</li>
                         <li><strong>Min. Güven:</strong> %0 (sabit)</li>
-                        <li><strong>Eğitim Hafta:</strong> ${response.parameters.train_weeks} (dinamik)</li>
+                        <li><strong>Eğitim Hafta:</strong> ${data.parameters.train_weeks} (dinamik)</li>
                         <li><strong>Min. Maç:</strong> 3 (sabit)</li>
                         <li><strong>Test Edilen Maç:</strong> ${results.total_predictions}</li>
                     </ul>

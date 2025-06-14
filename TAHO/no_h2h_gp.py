@@ -9,6 +9,7 @@ Sadece güncel form, home advantage ve team strength odaklı
 import json
 import pandas as pd
 import numpy as np
+import os
 from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.gaussian_process.kernels import RBF, Matern, ConstantKernel, WhiteKernel
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -31,6 +32,15 @@ class NoH2HGP:
         
     def load_and_analyze_data(self, league_file, target_week):
         """Veriyi yükle ve analiz et"""
+        # Dosya yolunu kontrol et ve düzelt
+        if not os.path.isabs(league_file):
+            # Göreli yolsa, script dizinine göre ayarla
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            league_file = os.path.join(script_dir, league_file)
+        
+        if not os.path.exists(league_file):
+            raise FileNotFoundError(f"Veri dosyası bulunamadı: {league_file}")
+            
         with open(league_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
@@ -61,10 +71,17 @@ class NoH2HGP:
             home_team = match.get('home', '')
             away_team = match.get('away', '')
             
-            # Score
-            score = match.get('score', {}).get('fullTime', {})
-            home_score = int(score.get('home', 0)) if score.get('home') else 0
-            away_score = int(score.get('away', 0)) if score.get('away') else 0
+            # Score - Güvenli erişim
+            score_data = match.get('score', {})
+            if score_data is None:
+                score_data = {}
+            
+            full_time = score_data.get('fullTime', {})
+            if full_time is None:
+                full_time = {}
+                
+            home_score = int(full_time.get('home', 0)) if full_time.get('home') else 0
+            away_score = int(full_time.get('away', 0)) if full_time.get('away') else 0
             
             # Initialize team stats
             for team in [home_team, away_team]:
@@ -364,10 +381,17 @@ class NoH2HGP:
             features = self.create_pure_form_features(match)
             X.append(list(features.values()))
             
-            # Result
-            score = match.get('score', {}).get('fullTime', {})
-            home_score = int(score.get('home', 0))
-            away_score = int(score.get('away', 0))
+            # Result - Güvenli erişim
+            score_data = match.get('score', {})
+            if score_data is None:
+                score_data = {}
+            
+            full_time = score_data.get('fullTime', {})
+            if full_time is None:
+                full_time = {}
+                
+            home_score = int(full_time.get('home', 0)) if full_time.get('home') else 0
+            away_score = int(full_time.get('away', 0)) if full_time.get('away') else 0
             
             if home_score > away_score:
                 result = '1'  # Home win
@@ -470,10 +494,17 @@ class NoH2HGP:
             # Confidence
             confidence = np.max(probabilities)
             
-            # Actual result
-            score = match.get('score', {}).get('fullTime', {})
-            home_score = int(score.get('home', 0))
-            away_score = int(score.get('away', 0))
+            # Actual result - Güvenli erişim
+            score_data = match.get('score', {})
+            if score_data is None:
+                score_data = {}
+            
+            full_time = score_data.get('fullTime', {})
+            if full_time is None:
+                full_time = {}
+                
+            home_score = int(full_time.get('home', 0)) if full_time.get('home') else 0
+            away_score = int(full_time.get('away', 0)) if full_time.get('away') else 0
             
             if home_score > away_score:
                 actual = '1'
