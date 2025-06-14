@@ -765,6 +765,177 @@
                             </div>
                         </div>
 
+                        <!-- Advanced GP Analysis -->
+                        <div class="feature-card">
+                            <h3><i class="fas fa-cogs"></i> Gelişmiş GP Analizi</h3>
+                            <p>Risk analizi, entropy hesaplama, sürpriz sonuç tespiti ve gelişmiş özellik mühendisliği.</p>
+                            
+                            <!-- Advanced GP Model Training -->
+                            <div class="row mb-3">
+                                <div class="col-md-8">
+                                    <label for="advancedGpDataFile" class="form-label">Gelişmiş Eğitim Veri Dosyası:</label>
+                                    <select id="advancedGpDataFile" class="form-select">
+                                        <option value="data/TR_stat.json">🇹🇷 Türkiye Süper Lig</option>
+                                        <option value="data/ENG_stat.json">🏴 İngiliz Premier Ligi</option>
+                                        <option value="data/ESP_stat.json">🇪🇸 İspanya La Liga</option>
+                                        <option value="data/ALM_stat.json">🇩🇪 Alman Ligi (Bundesliga)</option>
+                                        <option value="data/FRA_stat.json">🇫🇷 Fransa Ligue 1</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label class="form-label">&nbsp;</label>
+                                    <button id="advancedGpTrainBtn" class="btn btn-primary d-block w-100">
+                                        <i class="fas fa-brain"></i> Gelişmiş Eğitim
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Advanced Prediction Form -->
+                            <div id="advancedGpPredictionForm" style="display: none;">
+                                <h5><i class="fas fa-chart-line"></i> Risk Analizi ile Tahmin</h5>
+                                <div class="row mb-3">
+                                    <div class="col-md-3">
+                                        <label for="advHomeTeam" class="form-label">Ev Sahibi:</label>
+                                        <input type="text" id="advHomeTeam" class="form-control" placeholder="Galatasaray">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="advAwayTeam" class="form-label">Deplasman:</label>
+                                        <input type="text" id="advAwayTeam" class="form-control" placeholder="Fenerbahçe">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="advWeek" class="form-label">Hafta:</label>
+                                        <input type="number" id="advWeek" class="form-control" value="20" min="1" max="38">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="advH2hMatches" class="form-label">H2H Maç Sayısı:</label>
+                                        <input type="number" id="advH2hMatches" class="form-control" value="5" min="0" max="20">
+                                    </div>
+                                </div>
+                                
+                                <!-- Form Analysis -->
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <label for="advHomeForm5" class="form-label">Ev Sahibi Form (Son 5):</label>
+                                        <input type="number" id="advHomeForm5" class="form-control" value="0.6" min="0" max="1" step="0.1">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="advAwayForm5" class="form-label">Deplasman Form (Son 5):</label>
+                                        <input type="number" id="advAwayForm5" class="form-control" value="0.5" min="0" max="1" step="0.1">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="advHomeAdvantage" class="form-label">Ev Sahibi Avantajı:</label>
+                                        <input type="number" id="advHomeAdvantage" class="form-control" value="0.1" min="0" max="0.5" step="0.05">
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <button id="advancedGpPredictBtn" class="btn btn-success me-2">
+                                        <i class="fas fa-brain"></i> Gelişmiş Tahmin
+                                    </button>
+                                    <button id="upsetDetectionBtn" class="btn btn-warning">
+                                        <i class="fas fa-exclamation-triangle"></i> Sürpriz Tespiti
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Advanced GP Results -->
+                            <div id="advancedGpResults" style="display: none;">
+                                <div class="result-card">
+                                    <h4><i class="fas fa-chart-area"></i> Gelişmiş Analiz Sonucu</h4>
+                                    <div id="advancedGpPredictionResult"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Multi-League Analysis -->
+                        <div class="feature-card">
+                            <h3><i class="fas fa-globe"></i> Multi-League Analizi</h3>
+                            <p>Farklı liglerde performans karşılaştırması ve cross-league tahminleri.</p>
+                            
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <button id="multiLeagueTrainBtn" class="btn btn-primary d-block w-100">
+                                        <i class="fas fa-globe-americas"></i> Tüm Ligleri Eğit
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button id="multiLeagueAnalysisBtn" class="btn btn-info d-block w-100">
+                                        <i class="fas fa-chart-bar"></i> Lig Karşılaştırması
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Cross-League Prediction -->
+                            <div id="crossLeaguePredictionForm" style="display: none;">
+                                <h5><i class="fas fa-exchange-alt"></i> Cross-League Tahmin</h5>
+                                <div class="row mb-3">
+                                    <div class="col-md-3">
+                                        <label for="crossLeagueCode" class="form-label">Lig Seçin:</label>
+                                        <select id="crossLeagueCode" class="form-select">
+                                            <option value="TR">🇹🇷 Türkiye</option>
+                                            <option value="ENG">🏴 İngiltere</option>
+                                            <option value="ESP">🇪🇸 İspanya</option>
+                                            <option value="ALM">🇩🇪 Almanya</option>
+                                            <option value="FRA">🇫🇷 Fransa</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="crossHomeTeam" class="form-label">Ev Sahibi:</label>
+                                        <input type="text" id="crossHomeTeam" class="form-control" placeholder="Takım adı">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="crossAwayTeam" class="form-label">Deplasman:</label>
+                                        <input type="text" id="crossAwayTeam" class="form-control" placeholder="Takım adı">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button id="crossLeaguePredictBtn" class="btn btn-success" style="margin-top: 32px;">
+                                            <i class="fas fa-globe"></i> Cross Tahmin
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Multi-League Results -->
+                            <div id="multiLeagueResults" style="display: none;">
+                                <div class="result-card">
+                                    <h4><i class="fas fa-trophy"></i> Multi-League Sonuçları</h4>
+                                    <div id="multiLeagueAnalysisResult"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Performance Tracking -->
+                        <div class="feature-card">
+                            <h3><i class="fas fa-chart-line"></i> Performans Takibi</h3>
+                            <p>Tahmin geçmişi, başarı oranları ve zaman içinde model performansı analizi.</p>
+                            
+                            <div class="row mb-3">
+                                <div class="col-md-4">
+                                    <button id="predictionHistoryBtn" class="btn btn-primary d-block w-100">
+                                        <i class="fas fa-history"></i> Tahmin Geçmişi
+                                    </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="featureImportanceBtn" class="btn btn-info d-block w-100">
+                                        <i class="fas fa-list-ol"></i> Özellik Önem Sırası
+                                    </button>
+                                </div>
+                                <div class="col-md-4">
+                                    <button id="performanceTrackingBtn" class="btn btn-success d-block w-100">
+                                        <i class="fas fa-chart-area"></i> Performans Analizi
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <!-- Performance Results -->
+                            <div id="performanceResults" style="display: none;">
+                                <div class="result-card">
+                                    <h4><i class="fas fa-analytics"></i> Performans Verileri</h4>
+                                    <div id="performanceAnalysisResult"></div>
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- Available Weeks -->
                         <div class="feature-card">
                             <h5><i class="fas fa-info-circle"></i> Mevcut Haftalar</h5>
@@ -796,6 +967,20 @@
             document.getElementById('gpTrainBtn').addEventListener('click', trainGPModel);
             document.getElementById('gpPredictBtn').addEventListener('click', makeGPPrediction);
             
+            // Advanced GP event listeners
+            document.getElementById('trainAdvancedGPBtn').addEventListener('click', trainAdvancedGP);
+            document.getElementById('predictAdvancedGPBtn').addEventListener('click', predictAdvancedGP);
+            
+            // Multi-league event listeners
+            document.getElementById('trainAllLeaguesBtn').addEventListener('click', trainAllLeagues);
+            document.getElementById('analyzeMultiLeagueBtn').addEventListener('click', analyzeMultiLeague);
+            document.getElementById('predictCrossLeagueBtn').addEventListener('click', predictCrossLeague);
+            
+            // Performance tracking event listeners
+            document.getElementById('loadHistoryBtn').addEventListener('click', loadPredictionHistory);
+            document.getElementById('trackPerformanceBtn').addEventListener('click', trackPerformance);
+            document.getElementById('analyzeFeatureBtn').addEventListener('click', analyzeFeatureImportance);
+            
             // GP model durumunu kontrol et
             checkGPStatus();
             
@@ -805,6 +990,12 @@
             hideElement('unplayedResults');
             hideLoading('gpLoading');
             hideElement('gpResults');
+            hideElement('advancedGPResults');
+            hideElement('multiLeagueResults');
+            hideElement('crossLeagueResults');
+            hideElement('historyResults');
+            hideElement('performanceResults');
+            hideElement('featureImportanceResults');
         });
 
         // Mevcut haftaları yükle
@@ -1487,6 +1678,629 @@
                             <strong>Güven:</strong> %${data.confidence} 
                             ${data.confidence >= 70 ? '(Yüksek Güven)' : 
                               data.confidence >= 50 ? '(Orta Güven)' : '(Düşük Güven)'}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Advanced GP Functions
+        async function trainAdvancedGP() {
+            const trainBtn = document.getElementById('trainAdvancedGPBtn');
+            const league = document.getElementById('advancedGPLeague').value;
+            
+            if (!league) {
+                showAlert('warning', 'Lütfen bir lig seçin');
+                return;
+            }
+            
+            trainBtn.disabled = true;
+            trainBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Eğitiliyor...';
+            showLoading('advancedGPLoading');
+            
+            try {
+                const response = await fetch('/api/advanced-gp-train', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ league: league })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showAlert('success', `Gelişmiş GP modeli başarıyla eğitildi! Doğruluk: %${data.accuracy.toFixed(2)}`);
+                    document.getElementById('advancedGPStatus').innerHTML = `
+                        <div class="alert alert-success">
+                            <strong>Model Eğitildi:</strong> ${league}<br>
+                            <strong>Doğruluk:</strong> %${data.accuracy.toFixed(2)}<br>
+                            <strong>Özellik Sayısı:</strong> ${data.feature_count}
+                        </div>
+                    `;
+                } else {
+                    showAlert('danger', 'Eğitim hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Eğitim hatası: ' + error.message);
+            } finally {
+                trainBtn.disabled = false;
+                trainBtn.innerHTML = '<i class="fas fa-cogs"></i> Gelişmiş GP Eğit';
+                hideLoading('advancedGPLoading');
+            }
+        }
+
+        async function predictAdvancedGP() {
+            const predictBtn = document.getElementById('predictAdvancedGPBtn');
+            const homeTeam = document.getElementById('advancedGPHomeTeam').value;
+            const awayTeam = document.getElementById('advancedGPAwayTeam').value;
+            const week = document.getElementById('advancedGPWeek').value;
+            
+            if (!homeTeam || !awayTeam || !week) {
+                showAlert('warning', 'Lütfen tüm alanları doldurun');
+                return;
+            }
+            
+            predictBtn.disabled = true;
+            predictBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analiz Ediliyor...';
+            showLoading('advancedGPPredictLoading');
+            
+            try {
+                const response = await fetch('/api/advanced-gp-predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        home_team: homeTeam,
+                        away_team: awayTeam,
+                        week: parseInt(week)
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayAdvancedGPResult(data);
+                    showElement('advancedGPResults');
+                } else {
+                    showAlert('danger', 'Analiz hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Analiz hatası: ' + error.message);
+            } finally {
+                predictBtn.disabled = false;
+                predictBtn.innerHTML = '<i class="fas fa-brain"></i> Risk Analizi Yap';
+                hideLoading('advancedGPPredictLoading');
+            }
+        }
+
+        function displayAdvancedGPResult(data) {
+            const resultDiv = document.getElementById('advancedGPPredictionResult');
+            
+            let riskClass = data.risk_level === 'Low' ? 'text-success' : 
+                           data.risk_level === 'Medium' ? 'text-warning' : 'text-danger';
+            let riskIcon = data.risk_level === 'Low' ? 'fas fa-shield-alt' : 
+                          data.risk_level === 'Medium' ? 'fas fa-exclamation-triangle' : 'fas fa-skull-crossbones';
+            
+            let upsetIcon = data.upset_potential ? 'fas fa-bolt text-danger' : 'fas fa-check-circle text-success';
+            let upsetText = data.upset_potential ? 'Sürpriz Sonuç Olası' : 'Normal Sonuç Beklenir';
+            
+            resultDiv.innerHTML = `
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-trophy"></i> Tahmin</h6>
+                            <div class="metric-value">
+                                <span class="badge badge-primary">${data.prediction}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-percentage"></i> Güven</h6>
+                            <div class="metric-value text-info">
+                                %${(data.confidence * 100).toFixed(1)}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="${riskIcon}"></i> Risk</h6>
+                            <div class="metric-value ${riskClass}">
+                                ${data.risk_level}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-chart-line"></i> Entropi</h6>
+                            <div class="metric-value text-warning">
+                                ${data.entropy_score.toFixed(2)}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <strong><i class="${upsetIcon}"></i> Sürpriz Analizi:</strong> ${upsetText}
+                                </div>
+                                <div class="col-md-6">
+                                    <strong><i class="fas fa-thermometer-half"></i> Belirsizlik:</strong> 
+                                    ${data.entropy_score > 1.0 ? 'Yüksek' : data.entropy_score > 0.8 ? 'Orta' : 'Düşük'}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Multi-League Functions
+        async function trainAllLeagues() {
+            const trainBtn = document.getElementById('trainAllLeaguesBtn');
+            
+            trainBtn.disabled = true;
+            trainBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Tüm Ligler Eğitiliyor...';
+            showLoading('multiLeagueTrainLoading');
+            
+            try {
+                const response = await fetch('/api/multi-league-train', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showAlert('success', `${data.trained_leagues} lig başarıyla eğitildi!`);
+                    document.getElementById('multiLeagueStatus').innerHTML = `
+                        <div class="alert alert-success">
+                            <strong>Eğitilen Ligler:</strong> ${data.trained_leagues}<br>
+                            <strong>Ortalama Doğruluk:</strong> %${data.average_accuracy.toFixed(2)}<br>
+                            <strong>Süre:</strong> ${data.training_time.toFixed(1)} saniye
+                        </div>
+                    `;
+                } else {
+                    showAlert('danger', 'Eğitim hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Eğitim hatası: ' + error.message);
+            } finally {
+                trainBtn.disabled = false;
+                trainBtn.innerHTML = '<i class="fas fa-globe"></i> Tüm Ligleri Eğit';
+                hideLoading('multiLeagueTrainLoading');
+            }
+        }
+
+        async function analyzeMultiLeague() {
+            const analyzeBtn = document.getElementById('analyzeMultiLeagueBtn');
+            
+            analyzeBtn.disabled = true;
+            analyzeBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analiz Ediliyor...';
+            showLoading('multiLeagueAnalysisLoading');
+            
+            try {
+                const response = await fetch('/api/multi-league-analysis', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayMultiLeagueAnalysis(data);
+                    showElement('multiLeagueResults');
+                } else {
+                    showAlert('danger', 'Analiz hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Analiz hatası: ' + error.message);
+            } finally {
+                analyzeBtn.disabled = false;
+                analyzeBtn.innerHTML = '<i class="fas fa-chart-bar"></i> Lig Karşılaştırması';
+                hideLoading('multiLeagueAnalysisLoading');
+            }
+        }
+
+        function displayMultiLeagueAnalysis(data) {
+            const resultDiv = document.getElementById('multiLeagueAnalysisResult');
+            
+            let leaguesHtml = '';
+            data.league_analysis.forEach(league => {
+                let perfClass = league.performance > 0.7 ? 'text-success' : 
+                               league.performance > 0.6 ? 'text-warning' : 'text-danger';
+                
+                leaguesHtml += `
+                    <div class="col-md-4 mb-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-flag"></i> ${league.league}</h6>
+                            <div class="small text-muted">Performans: <span class="${perfClass}">%${(league.performance * 100).toFixed(1)}</span></div>
+                            <div class="small text-muted">Rekabet: ${league.competitiveness.toFixed(2)}</div>
+                            <div class="small text-muted">Tahmin Edilebilirlik: ${league.predictability.toFixed(2)}</div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            resultDiv.innerHTML = `
+                <div class="row">
+                    <div class="col-12">
+                        <h5><i class="fas fa-trophy"></i> Lig Performans Analizi</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    ${leaguesHtml}
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <strong><i class="fas fa-lightbulb"></i> Öneriler:</strong><br>
+                            ${data.recommendations.join('<br>')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function predictCrossLeague() {
+            const predictBtn = document.getElementById('predictCrossLeagueBtn');
+            const sourceLeague = document.getElementById('crossLeagueSource').value;
+            const targetLeague = document.getElementById('crossLeagueTarget').value;
+            const homeTeam = document.getElementById('crossLeagueHome').value;
+            const awayTeam = document.getElementById('crossLeagueAway').value;
+            const week = document.getElementById('crossLeagueWeek').value;
+            
+            if (!sourceLeague || !targetLeague || !homeTeam || !awayTeam || !week) {
+                showAlert('warning', 'Lütfen tüm alanları doldurun');
+                return;
+            }
+            
+            predictBtn.disabled = true;
+            predictBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Çapraz Tahmin Yapılıyor...';
+            showLoading('crossLeaguePredictLoading');
+            
+            try {
+                const response = await fetch('/api/cross-league-predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        source_league: sourceLeague,
+                        target_league: targetLeague,
+                        home_team: homeTeam,
+                        away_team: awayTeam,
+                        week: parseInt(week)
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayCrossLeagueResult(data);
+                    showElement('crossLeagueResults');
+                } else {
+                    showAlert('danger', 'Çapraz tahmin hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Çapraz tahmin hatası: ' + error.message);
+            } finally {
+                predictBtn.disabled = false;
+                predictBtn.innerHTML = '<i class="fas fa-exchange-alt"></i> Çapraz Lig Tahmini';
+                hideLoading('crossLeaguePredictLoading');
+            }
+        }
+
+        function displayCrossLeagueResult(data) {
+            const resultDiv = document.getElementById('crossLeaguePredictionResult');
+            
+            let adaptationClass = data.adaptation_score > 0.7 ? 'text-success' : 
+                                 data.adaptation_score > 0.5 ? 'text-warning' : 'text-danger';
+            
+            resultDiv.innerHTML = `
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-trophy"></i> Tahmin</h6>
+                            <div class="metric-value">
+                                <span class="badge badge-primary">${data.prediction}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-percentage"></i> Güven</h6>
+                            <div class="metric-value text-info">
+                                %${(data.confidence * 100).toFixed(1)}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-exchange-alt"></i> Adaptasyon</h6>
+                            <div class="metric-value ${adaptationClass}">
+                                %${(data.adaptation_score * 100).toFixed(1)}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-balance-scale"></i> Uyumluluk</h6>
+                            <div class="metric-value text-warning">
+                                ${data.similarity_score.toFixed(2)}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <strong><i class="fas fa-info-circle"></i> Çapraz Lig Analizi:</strong><br>
+                            <strong>Kaynak Lig:</strong> ${data.source_league}<br>
+                            <strong>Hedef Lig:</strong> ${data.target_league}<br>
+                            <strong>Lig Benzerliği:</strong> ${data.similarity_score.toFixed(2)}<br>
+                            <strong>Model Adaptasyonu:</strong> %${(data.adaptation_score * 100).toFixed(1)}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Performance Tracking Functions
+        async function loadPredictionHistory() {
+            const loadBtn = document.getElementById('loadHistoryBtn');
+            const days = document.getElementById('historyDays').value;
+            
+            loadBtn.disabled = true;
+            loadBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Yükleniyor...';
+            showLoading('historyLoading');
+            
+            try {
+                const response = await fetch('/api/prediction-history', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ days: parseInt(days) })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayPredictionHistory(data);
+                    showElement('historyResults');
+                } else {
+                    showAlert('danger', 'Geçmiş yükleme hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Geçmiş yükleme hatası: ' + error.message);
+            } finally {
+                loadBtn.disabled = false;
+                loadBtn.innerHTML = '<i class="fas fa-history"></i> Geçmişi Yükle';
+                hideLoading('historyLoading');
+            }
+        }
+
+        function displayPredictionHistory(data) {
+            const resultDiv = document.getElementById('predictionHistoryResult');
+            
+            let historyHtml = '';
+            data.predictions.forEach(pred => {
+                let riskClass = pred.risk_level === 'Low' ? 'success' : 
+                               pred.risk_level === 'Medium' ? 'warning' : 'danger';
+                
+                historyHtml += `
+                    <tr>
+                        <td>${new Date(pred.timestamp).toLocaleDateString('tr-TR')}</td>
+                        <td>${pred.league}</td>
+                        <td>${pred.home_team} vs ${pred.away_team}</td>
+                        <td><span class="badge badge-primary">${pred.prediction}</span></td>
+                        <td>%${(pred.confidence * 100).toFixed(1)}</td>
+                        <td><span class="badge badge-${riskClass}">${pred.risk_level}</span></td>
+                        <td>${pred.entropy_score.toFixed(2)}</td>
+                    </tr>
+                `;
+            });
+            
+            resultDiv.innerHTML = `
+                <div class="row">
+                    <div class="col-12">
+                        <h5><i class="fas fa-history"></i> Tahmin Geçmişi (${data.total_predictions} tahmin)</h5>
+                        <div class="table-responsive">
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Tarih</th>
+                                        <th>Lig</th>
+                                        <th>Maç</th>
+                                        <th>Tahmin</th>
+                                        <th>Güven</th>
+                                        <th>Risk</th>
+                                        <th>Entropi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    ${historyHtml}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function trackPerformance() {
+            const trackBtn = document.getElementById('trackPerformanceBtn');
+            
+            trackBtn.disabled = true;
+            trackBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analiz Ediliyor...';
+            showLoading('performanceLoading');
+            
+            try {
+                const response = await fetch('/api/performance-tracking', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayPerformanceTracking(data);
+                    showElement('performanceResults');
+                } else {
+                    showAlert('danger', 'Performans analizi hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Performans analizi hatası: ' + error.message);
+            } finally {
+                trackBtn.disabled = false;
+                trackBtn.innerHTML = '<i class="fas fa-chart-line"></i> Performans Analizi';
+                hideLoading('performanceLoading');
+            }
+        }
+
+        function displayPerformanceTracking(data) {
+            const resultDiv = document.getElementById('performanceTrackingResult');
+            
+            let trendClass = data.trend === 'improving' ? 'text-success' : 
+                            data.trend === 'declining' ? 'text-danger' : 'text-warning';
+            let trendIcon = data.trend === 'improving' ? 'fas fa-arrow-up' : 
+                           data.trend === 'declining' ? 'fas fa-arrow-down' : 'fas fa-minus';
+            
+            resultDiv.innerHTML = `
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-percentage"></i> Ortalama Doğruluk</h6>
+                            <div class="metric-value text-success">
+                                %${(data.average_accuracy * 100).toFixed(1)}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-shield-alt"></i> Ortalama Güven</h6>
+                            <div class="metric-value text-info">
+                                %${(data.average_confidence * 100).toFixed(1)}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="${trendIcon}"></i> Trend</h6>
+                            <div class="metric-value ${trendClass}">
+                                ${data.trend === 'improving' ? 'İyileşiyor' : 
+                                  data.trend === 'declining' ? 'Kötüleşiyor' : 'Stabil'}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-calculator"></i> Toplam Tahmin</h6>
+                            <div class="metric-value text-warning">
+                                ${data.total_predictions}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <strong><i class="fas fa-info-circle"></i> Performans Özeti:</strong><br>
+                            Son ${data.days_analyzed} günde ${data.total_predictions} tahmin yapıldı.<br>
+                            Model performansı ${data.trend === 'improving' ? 'iyileşme' : 
+                                                data.trend === 'declining' ? 'kötüleşme' : 'stabil kalma'} eğiliminde.
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function analyzeFeatureImportance() {
+            const analyzeBtn = document.getElementById('analyzeFeatureBtn');
+            const league = document.getElementById('featureImportanceLeague').value;
+            
+            if (!league) {
+                showAlert('warning', 'Lütfen bir lig seçin');
+                return;
+            }
+            
+            analyzeBtn.disabled = true;
+            analyzeBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Analiz Ediliyor...';
+            showLoading('featureImportanceLoading');
+            
+            try {
+                const response = await fetch('/api/feature-importance', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ league: league })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    displayFeatureImportance(data);
+                    showElement('featureImportanceResults');
+                } else {
+                    showAlert('danger', 'Özellik analizi hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+                
+            } catch (error) {
+                showAlert('danger', 'Özellik analizi hatası: ' + error.message);
+            } finally {
+                analyzeBtn.disabled = false;
+                analyzeBtn.innerHTML = '<i class="fas fa-weight-hanging"></i> Özellik Önem Analizi';
+                hideLoading('featureImportanceLoading');
+            }
+        }
+
+        function displayFeatureImportance(data) {
+            const resultDiv = document.getElementById('featureImportanceResult');
+            
+            let featuresHtml = '';
+            data.feature_importance.forEach((feature, index) => {
+                let barWidth = (feature.importance * 100).toFixed(1);
+                let colorClass = index < 3 ? 'bg-success' : index < 6 ? 'bg-warning' : 'bg-info';
+                
+                featuresHtml += `
+                    <div class="row mb-2">
+                        <div class="col-md-4">
+                            <small><strong>${feature.feature}</strong></small>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar ${colorClass}" style="width: ${barWidth}%">
+                                    ${barWidth}%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <small class="text-muted">#${index + 1}</small>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            resultDiv.innerHTML = `
+                <div class="row">
+                    <div class="col-12">
+                        <h5><i class="fas fa-weight-hanging"></i> Özellik Önem Sıralaması (${data.league})</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        ${featuresHtml}
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <strong><i class="fas fa-lightbulb"></i> Önemli Özellikler:</strong><br>
+                            En etkili 3 özellik: <strong>${data.top_features.join(', ')}</strong><br>
+                            Bu özellikler tahmin doğruluğunda en büyük etkiye sahip.
                         </div>
                     </div>
                 </div>

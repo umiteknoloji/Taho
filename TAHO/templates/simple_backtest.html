@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol Backtest - %100 Doğru Tahmin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-dark: #0d1117;
+            --secondary-dark: #161b22;
+            --tertiary-dark: #21262d;
+            --accent-gold: #ffd700;
+            --accent-green: #2ea043;
+            --accent-red: #da3633;
+            --text-primary: #f0f6fc;
+            --text-secondary: #8b949e;
+            --border-color: #30363d;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--secondary-dark) 100%);
+            min-height: 100vh;
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+
+        .main-container {
+            background: rgba(33, 38, 45, 0.95);
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+            backdrop-filter: blur(20px);
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--tertiary-dark) 0%, var(--secondary-dark) 100%);
+            color: var(--accent-gold);
+            padding: 30px;
+            text-align: center;
+            border-radius: 16px 16px 0 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .backtest-card {
+            background: var(--tertiary-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px;
+        }
+
+        .form-control, .form-select {
+            background: var(--secondary-dark);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            border-radius: 8px;
+        }
+
+        .form-control:focus, .form-select:focus {
+            background: var(--secondary-dark);
+            border-color: var(--accent-gold);
+            color: var(--text-primary);
+            box-shadow: 0 0 0 0.2rem rgba(255, 215, 0, 0.25);
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            border: none;
+            color: var(--primary-dark);
+            font-weight: 600;
+            border-radius: 8px;
+            padding: 12px 24px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background: #e6c200;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
+        }
+
+        .btn-danger {
+            background: var(--accent-red);
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+        }
+
+        .results-card {
+            background: var(--secondary-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .metric-card {
+            background: var(--tertiary-dark);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .perfect-accuracy {
+            color: var(--accent-green);
+            text-shadow: 0 0 10px rgba(46, 160, 67, 0.5);
+        }
+
+        .high-accuracy {
+            color: var(--accent-gold);
+        }
+
+        .low-accuracy {
+            color: var(--accent-red);
+        }
+
+        .loading-spinner {
+            border: 4px solid var(--border-color);
+            border-top: 4px solid var(--accent-gold);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .alert {
+            border-radius: 8px;
+            border: none;
+        }
+
+        .alert-success {
+            background: rgba(46, 160, 67, 0.2);
+            color: var(--accent-green);
+            border: 1px solid var(--accent-green);
+        }
+
+        .alert-danger {
+            background: rgba(218, 54, 51, 0.2);
+            color: var(--accent-red);
+            border: 1px solid var(--accent-red);
+        }
+
+        .table-dark {
+            background: var(--secondary-dark);
+            border-color: var(--border-color);
+        }
+
+        .table-dark td, .table-dark th {
+            border-color: var(--border-color);
+        }
+
+        .badge-success {
+            background: var(--accent-green);
+        }
+
+        .badge-warning {
+            background: var(--accent-gold);
+            color: var(--primary-dark);
+        }
+
+        .badge-danger {
+            background: var(--accent-red);
+        }
+
+        .perfect-match {
+            background: rgba(46, 160, 67, 0.1);
+            border-left: 4px solid var(--accent-green);
+        }
+
+        .target-section {
+            background: linear-gradient(45deg, rgba(46, 160, 67, 0.1), rgba(255, 215, 0, 0.1));
+            border: 2px solid var(--accent-green);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="main-container">
+            <!-- Header -->
+            <div class="header">
+                <h1><i class="fas fa-bullseye"></i> Futbol Backtest Sistemi</h1>
+                <h3>🎯 Hedef: %100 Doğru Tahmin</h3>
+                <p class="mb-0">Geçmiş maç verilerinde mükemmel tahmin performansı arayışı</p>
+            </div>
+
+            <!-- Target Section -->
+            <div class="target-section">
+                <h4><i class="fas fa-trophy"></i> Mükemmellik Hedefi</h4>
+                <p class="mb-0">Bu sistem, geçmiş maç verilerinde %100 doğruluk oranı veren parametreleri bulur.</p>
+                <small class="text-muted">Farklı parametreler, eşik değerleri ve hafta aralıklarını test ederek mükemmel sonuçları keşfedin.</small>
+            </div>
+
+            <!-- Backtest Form -->
+            <div class="backtest-card">
+                <h4><i class="fas fa-chart-line"></i> Backtest Parametreleri</h4>
+                
+                <!-- Model Info -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <h6><i class="fas fa-brain"></i> Kullanılan Model: No H2H GP (Pure Form)</h6>
+                            <p class="mb-0">Pure form-based analiz, sadece takım formu ve ev sahibi avantajı kullanılır. H2H verisi kullanmaz.</p>
+                            <small class="text-muted">Sabit parametreler: Min. Güven %0, Eğitim dinamik hafta, Min. 3 maç</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="dataFile" class="form-label">
+                                <i class="fas fa-database"></i> Lig Seçimi
+                            </label>
+                            <select class="form-select" id="dataFile">
+                                <option value="data/ALM_stat.json" selected>🇩🇪 Alman Bundesliga</option>
+                                <option value="data/TR_stat.json">🇹🇷 Türkiye Süper Lig</option>
+                                <option value="data/ENG_stat.json">🏴 İngiliz Premier Ligi</option>
+                                <option value="data/ESP_stat.json">🇪🇸 İspanya La Liga</option>
+                                <option value="data/FRA_stat.json">🇫🇷 Fransa Ligue 1</option>
+                                <option value="data/HOL_stat.json">🇳🇱 Hollanda Eredivisie</option>
+                                <option value="data/POR_stat.json">🇵🇹 Portekiz Ligi</option>
+                                <option value="data/BEL_stat.json">🇧🇪 Belçika Ligi</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="testWeek" class="form-label">
+                                <i class="fas fa-calendar"></i> Test Haftası
+                            </label>
+                            <input type="number" class="form-control" id="testWeek" min="11" max="38" value="11" 
+                                   placeholder="Test edilecek hafta">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <button id="runBacktestBtn" class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> Backtest Başlat
+                    </button>
+                    <button id="clearResultsBtn" class="btn btn-danger ms-2">
+                        <i class="fas fa-trash"></i> Sonuçları Temizle
+                    </button>
+                </div>
+
+                <!-- Loading -->
+                <div id="backtestLoading" style="display: none;">
+                    <div class="loading-spinner"></div>
+                    <p class="text-center mt-2">Backtest çalışıyor, lütfen bekleyin...</p>
+                </div>
+            </div>
+
+            <!-- Results -->
+            <div id="backtestResults" style="display: none;">
+                <div class="results-card">
+                    <h4><i class="fas fa-chart-bar"></i> Backtest Sonuçları</h4>
+                    <div id="backtestResultContent"></div>
+                </div>
+            </div>
+
+            <!-- Perfect Results Section -->
+            <div id="perfectResults" style="display: none;">
+                <div class="results-card perfect-match">
+                    <h4><i class="fas fa-trophy"></i> 🎯 Mükemmel Sonuçlar (%100 Doğruluk)</h4>
+                    <div id="perfectResultContent"></div>
+                </div>
+            </div>
+
+            <!-- GP Analysis Section -->
+            <div id="gpAnalysisResults" style="display: none;">
+                <div class="results-card">
+                    <h4><i class="fas fa-brain"></i> 🧠 GP Model Analizi ve İyileştirme Önerileri</h4>
+                    <div id="gpAnalysisContent"></div>
+                </div>
+            </div>
+
+            <!-- Available Weeks Info -->
+            <div class="backtest-card">
+                <h5><i class="fas fa-info-circle"></i> Mevcut Veri Bilgisi</h5>
+                <div id="availableWeeks"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alert Container -->
+    <div id="alertContainer" style="position: fixed; top: 20px; right: 20px; z-index: 1050;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let availableWeeks = [];
+        
+        // Page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAvailableWeeks();
+            
+            // Event listeners
+            document.getElementById('dataFile').addEventListener('change', function() {
+                loadAvailableWeeks(this.value);
+            });
+            
+            document.getElementById('runBacktestBtn').addEventListener('click', runBacktest);
+            document.getElementById('clearResultsBtn').addEventListener('click', clearResults);
+        });
+
+        // Load available weeks
+        async function loadAvailableWeeks(dataFile = null) {
+            try {
+                const selectedDataFile = dataFile || document.getElementById('dataFile').value;
+                const response = await fetch(`/api/available-weeks?data_file=${encodeURIComponent(selectedDataFile)}`);
+                const data = await response.json();
+                
+                if (data.success) {
+                    availableWeeks = data.weeks;
+                    document.getElementById('availableWeeks').innerHTML = `
+                        <div class="alert alert-info">
+                            <strong><i class="fas fa-calendar-alt"></i> Mevcut Haftalar:</strong> ${data.weeks.join(', ')}<br>
+                            <strong><i class="fas fa-futbol"></i> Toplam Maç:</strong> ${data.total_matches}<br>
+                            <strong><i class="fas fa-chart-line"></i> Önerilen Test Haftası:</strong> ${Math.max(...data.weeks)}
+                        </div>
+                    `;
+                    
+                    // Update max week for test week input
+                    const testWeekInput = document.getElementById('testWeek');
+                    testWeekInput.max = Math.max(...data.weeks);
+                    testWeekInput.value = Math.max(...data.weeks);
+                }
+            } catch (error) {
+                showAlert('danger', 'Hafta bilgileri yüklenemedi: ' + error.message);
+            }
+        }
+
+        // Run backtest
+        async function runBacktest() {
+            const runBtn = document.getElementById('runBacktestBtn');
+            const dataFile = document.getElementById('dataFile').value;
+            const testWeek = parseInt(document.getElementById('testWeek').value);
+
+            if (!dataFile || !testWeek) {
+                showAlert('warning', 'Lütfen lig ve test haftasını seçin');
+                return;
+            }
+
+            runBtn.disabled = true;
+            runBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Backtest Çalışıyor...';
+            showLoading('backtestLoading');
+
+            try {
+                const response = await fetch('/api/run-backtest', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        data_file: dataFile,
+                        test_week: testWeek
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    displayBacktestResults(data.results);
+                    showElement('backtestResults');
+                    
+                    // GP Analysis Display
+                    if (data.gp_analysis) {
+                        displayGPAnalysis(data.gp_analysis);
+                        showElement('gpAnalysisResults');
+                    }
+                    
+                    // Check for perfect results
+                    if (data.results.accuracy === 100) {
+                        displayPerfectResults(data.results);
+                        showElement('perfectResults');
+                        showAlert('success', '🎯 MÜKEMMEL! %100 doğruluk elde edildi!');
+                    } else if (data.results.accuracy >= 90) {
+                        showAlert('success', `🎉 Harika! %${data.results.accuracy} doğruluk oranı!`);
+                    } else {
+                        showAlert('info', `📊 Backtest tamamlandı. Doğruluk: %${data.results.accuracy}`);
+                    }
+                } else {
+                    showAlert('danger', 'Backtest hatası: ' + (data.error || 'Bilinmeyen hata'));
+                }
+
+            } catch (error) {
+                showAlert('danger', 'Backtest hatası: ' + error.message);
+            } finally {
+                runBtn.disabled = false;
+                runBtn.innerHTML = '<i class="fas fa-rocket"></i> Backtest Başlat';
+                hideLoading('backtestLoading');
+            }
+        }
+
+        // Display backtest results
+        function displayBacktestResults(results) {
+            const accuracyClass = results.accuracy === 100 ? 'perfect-accuracy' : 
+                                 results.accuracy >= 90 ? 'high-accuracy' : 
+                                 results.accuracy >= 70 ? '' : 'low-accuracy';
+
+            let resultHtml = `
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-bullseye"></i> Doğruluk Oranı</h6>
+                            <div class="metric-value ${accuracyClass}">%${results.accuracy}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-futbol"></i> Test Edilen Maç</h6>
+                            <div class="metric-value">${results.total_predictions}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-check-circle"></i> Doğru Tahmin</h6>
+                            <div class="metric-value text-success">${results.correct_predictions}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-times-circle"></i> Yanlış Tahmin</h6>
+                            <div class="metric-value text-danger">${results.total_predictions - results.correct_predictions}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            if (results.predictions && results.predictions.length > 0) {
+                resultHtml += `
+                    <div class="mt-4">
+                        <h5><i class="fas fa-list"></i> Detaylı Sonuçlar</h5>
+                        <div class="table-responsive">
+                            <table class="table table-dark table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Maç</th>
+                                        <th>Tahmin</th>
+                                        <th>Gerçek</th>
+                                        <th>Güven</th>
+                                        <th>Sonuç</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                `;
+
+                results.predictions.forEach(pred => {
+                    const isCorrect = pred.predicted === pred.actual;
+                    const resultBadge = isCorrect ? 
+                        '<span class="badge badge-success">Doğru</span>' : 
+                        '<span class="badge badge-danger">Yanlış</span>';
+                    
+                    const rowClass = isCorrect ? 'perfect-match' : '';
+                    
+                    resultHtml += `
+                        <tr class="${rowClass}">
+                            <td>${pred.home_team} vs ${pred.away_team}</td>
+                            <td><span class="badge badge-primary">${pred.predicted}</span></td>
+                            <td><span class="badge badge-warning">${pred.actual}</span></td>
+                            <td>%${(pred.confidence * 100).toFixed(1)}</td>
+                            <td>${resultBadge}</td>
+                        </tr>
+                    `;
+                });
+
+                resultHtml += `
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                `;
+            }
+
+            document.getElementById('backtestResultContent').innerHTML = resultHtml;
+        }
+
+        // Display perfect results
+        function displayPerfectResults(results) {
+            document.getElementById('perfectResultContent').innerHTML = `
+                <div class="alert alert-success">
+                    <h5><i class="fas fa-trophy"></i> MÜKEMMEL SONUÇ ELDE EDİLDİ!</h5>
+                    <p><strong>Parametreler:</strong></p>
+                    <ul>
+                        <li><strong>Lig:</strong> ${document.getElementById('dataFile').options[document.getElementById('dataFile').selectedIndex].text}</li>
+                        <li><strong>Model:</strong> No H2H GP (Pure Form)</li>
+                        <li><strong>Test Haftası:</strong> ${document.getElementById('testWeek').value}</li>
+                        <li><strong>Min. Güven:</strong> %0 (sabit)</li>
+                        <li><strong>Eğitim Hafta:</strong> ${response.parameters.train_weeks} (dinamik)</li>
+                        <li><strong>Min. Maç:</strong> 3 (sabit)</li>
+                        <li><strong>Test Edilen Maç:</strong> ${results.total_predictions}</li>
+                    </ul>
+                    <p class="mb-0"><i class="fas fa-lightbulb"></i> Bu parametreler ile %100 doğruluk sağlandı!</p>
+                </div>
+            `;
+        }
+
+        // Display GP Analysis
+        function displayGPAnalysis(gpAnalysis) {
+            let html = `
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-percentage"></i> Mevcut Doğruluk</h6>
+                            <div class="metric-value">${gpAnalysis.accuracy || 0}%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-exclamation-triangle"></i> Başarısız Tahmin</h6>
+                            <div class="metric-value text-danger">${gpAnalysis.failed_predictions || 0}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="metric-card">
+                            <h6><i class="fas fa-target"></i> Hedefe Kalan</h6>
+                            <div class="metric-value">${100 - (gpAnalysis.accuracy || 0)}%</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Recommendations
+            if (gpAnalysis.recommendations && gpAnalysis.recommendations.length > 0) {
+                html += `
+                    <div class="mb-4">
+                        <h5><i class="fas fa-lightbulb"></i> İyileştirme Önerileri</h5>
+                        <div class="row">
+                `;
+
+                gpAnalysis.recommendations.forEach((rec, index) => {
+                    const priority = rec.priority || 'medium';
+                    const badgeClass = priority === 'high' ? 'badge-danger' : 
+                                     priority === 'medium' ? 'badge-warning' : 'badge-secondary';
+                    
+                    html += `
+                        <div class="col-md-6 mb-3">
+                            <div class="alert alert-info">
+                                <span class="badge ${badgeClass}">${priority.toUpperCase()}</span>
+                                <strong>${rec.title || `Öneri ${index + 1}`}</strong>
+                                <p class="mb-0 mt-2">${rec.description || rec}</p>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Failure Analysis
+            if (gpAnalysis.patterns) {
+                html += `
+                    <div class="mb-4">
+                        <h5><i class="fas fa-chart-pie"></i> Başarısızlık Analizi</h5>
+                        <div class="row">
+                `;
+
+                // High confidence errors
+                if (gpAnalysis.patterns.confidence_analysis) {
+                    const conf = gpAnalysis.patterns.confidence_analysis;
+                    html += `
+                        <div class="col-md-6">
+                            <div class="alert alert-warning">
+                                <h6><i class="fas fa-exclamation"></i> Güven Analizi</h6>
+                                <ul class="mb-0">
+                                    <li>Yüksek Güven Hataları: ${conf.high_confidence_errors || 0}</li>
+                                    <li>Düşük Güven Hataları: ${conf.low_confidence_errors || 0}</li>
+                                    <li>Ortalama Hata Güveni: ${(conf.avg_failed_confidence || 0).toFixed(1)}%</li>
+                                </ul>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // Result type analysis
+                if (gpAnalysis.patterns.result_type_analysis) {
+                    const resultTypes = gpAnalysis.patterns.result_type_analysis;
+                    html += `
+                        <div class="col-md-6">
+                            <div class="alert alert-info">
+                                <h6><i class="fas fa-futbol"></i> Sonuç Türü Analizi</h6>
+                                <ul class="mb-0">
+                    `;
+                    
+                    Object.entries(resultTypes).forEach(([key, value]) => {
+                        if (key !== 'total_failures') {
+                            const label = key === 'home_wins_missed' ? 'Ev Sahibi Galibiyeti Kaçırılan' :
+                                         key === 'draws_missed' ? 'Beraberlik Kaçırılan' :
+                                         key === 'away_wins_missed' ? 'Deplasman Galibiyeti Kaçırılan' : key;
+                            html += `<li>${label}: ${value || 0}</li>`;
+                        }
+                    });
+
+                    html += `
+                                </ul>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                html += `
+                        </div>
+                    </div>
+                `;
+            }
+
+            document.getElementById('gpAnalysisContent').innerHTML = html;
+        }
+
+        // Clear results
+        function clearResults() {
+            hideElement('backtestResults');
+            hideElement('perfectResults');
+            hideElement('gpAnalysisResults');
+            document.getElementById('backtestResultContent').innerHTML = '';
+            document.getElementById('perfectResultContent').innerHTML = '';
+            document.getElementById('gpAnalysisContent').innerHTML = '';
+        }
+
+        // Utility functions
+        function showElement(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function hideElement(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+
+        function showLoading(id) {
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function hideLoading(id) {
+            document.getElementById(id).style.display = 'none';
+        }
+
+        function showAlert(type, message) {
+            const alertContainer = document.getElementById('alertContainer');
+            const alertId = 'alert-' + Date.now();
+            
+            const alertHtml = `
+                <div id="${alertId}" class="alert alert-${type} alert-dismissible fade show" role="alert">
+                    ${message}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            `;
+            
+            alertContainer.insertAdjacentHTML('beforeend', alertHtml);
+            
+            // Auto dismiss after 5 seconds
+            setTimeout(() => {
+                const alertElement = document.getElementById(alertId);
+                if (alertElement) {
+                    alertElement.remove();
+                }
+            }, 5000);
+        }
+    </script>
+</body>
+</html>

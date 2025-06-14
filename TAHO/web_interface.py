@@ -21,12 +21,15 @@ import pandas as pd
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from parametric_backtest import ParametricBacktestSystem
 from working_gp_predictor import WorkingGPPredictor
+from advanced_gp_system import AdvancedGPPredictor
 
 app = Flask(__name__)
 app.secret_key = 'futbol_backtest_2025'
 
-# Global GP predictor
+# Global GP predictors
 gp_predictor = WorkingGPPredictor()
+advanced_gp = AdvancedGPPredictor()
+backtest_system = ParametricBacktestSystem()
 
 # Desteklenen veri dosyaları
 SUPPORTED_DATA_FILES = {
@@ -509,6 +512,135 @@ def gp_status():
             "model_type": "Gaussian Process Classifier",
             "description": "Veri sızıntısı olmayan GP tahmin sistemi"
         })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/advanced-gp-train', methods=['POST'])
+def advanced_gp_train():
+    """Advanced GP modelini eğit"""
+    try:
+        data = request.get_json()
+        data_file = data.get('data_file', 'data/TR_stat.json')
+        
+        if not validate_data_file(data_file):
+            return jsonify({"error": "Geçersiz veri dosyası"}), 400
+        
+        success, message = advanced_gp.train_with_kernel_optimization(data_file)
+        
+        if success:
+            return jsonify({
+                "success": True, 
+                "message": message,
+                "league": SUPPORTED_DATA_FILES.get(data_file, "Bilinmeyen Lig")
+            })
+        else:
+            return jsonify({"error": message}), 400
+            
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/advanced-gp-predict', methods=['POST'])
+def advanced_gp_predict():
+    """Advanced GP ile risk analizi tahmin"""
+    try:
+        data = request.get_json()
+        home_team = data.get('home_team', '')
+        away_team = data.get('away_team', '')
+        week = data.get('week', 1)
+        
+        match_features = {
+            'home_win_rate': data.get('home_win_rate', 0.5),
+            'away_win_rate': data.get('away_win_rate', 0.5),
+            'home_form_5': data.get('home_form_5', 0.5),
+            'away_form_5': data.get('away_form_5', 0.5),
+            'home_avg_gf': data.get('home_avg_gf', 1.5),
+            'away_avg_gf': data.get('away_avg_gf', 1.5),
+            'h2h_matches': data.get('h2h_matches', 0),
+            'home_advantage_factor': data.get('home_advantage_factor', 0.1)
+        }
+        
+        result, confidence, entropy_score, risk_level, status = advanced_gp.predict_with_risk_analysis(
+            home_team, away_team, week, **match_features
+        )
+        
+        if result:
+            # Upset potential check
+            upset_potential, upset_score, upset_info = advanced_gp.detect_upset_potential(
+                home_team, away_team, **match_features
+            )
+            
+            result_text = {
+                '1': f"{home_team} Galip",
+                'X': "Beraberlik", 
+                '2': f"{away_team} Galip"
+            }.get(result, result)
+            
+            return jsonify({
+                "success": True,
+                "prediction": result,
+                "prediction_text": result_text,
+                "confidence": round(confidence * 100, 1),
+                "entropy_score": round(entropy_score, 3),
+                "risk_level": risk_level,
+                "upset_potential": upset_potential,
+                "upset_score": round(upset_score, 3),
+                "upset_info": upset_info,
+                "home_team": home_team,
+                "away_team": away_team,
+                "week": week,
+                "status": status
+                    })
+        else:
+            return jsonify({"error": status}), 400
+            
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/prediction-history', methods=['POST'])
+def prediction_history():
+    """Tahmin geçmişini getir"""
+    try:
+        data = request.get_json()
+        days = data.get('days', 30)
+        
+        history = advanced_gp.get_prediction_history(days)
+        
+        return jsonify({
+            "success": True,
+            "predictions": history,
+            "total_predictions": len(history)
+        })
+        
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/performance-tracking', methods=['GET'])
+def performance_tracking():
+    """Performans takibi"""
+    try:
+        league = request.args.get('league', None)
+        performance_data = advanced_gp.get_performance_over_time(league)
+        
+        return jsonify({
+            "success": True,
+            "performance_data": performance_data,
+            "league": league
+        })
+        
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route('/api/feature-importance', methods=['GET'])
+def feature_importance():
+    """Özellik önem sıralaması"""
+    try:
+        importance_ranking = advanced_gp.calculate_feature_importance_ranking()
+        
+        return jsonify({
+            "success": True,
+            "feature_importance": importance_ranking
+                })
+        
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
